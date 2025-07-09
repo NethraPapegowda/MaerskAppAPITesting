@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  tests:
+    build: .
+    volumes:
+      - ./target:/app/target
+    environment:
+      # Add any environment variables your tests might need
+      - ENVIRONMENT=test

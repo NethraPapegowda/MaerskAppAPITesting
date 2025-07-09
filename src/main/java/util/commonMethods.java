@@ -16,6 +16,7 @@ import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Map;
 import java.util.Properties;
 
 import org.testng.Assert;
@@ -27,6 +28,50 @@ import files.getPayLoad;
 
 public class commonMethods{
 
+    /**
+     * Get base URL from YAML configuration for the current environment
+     */
+    public static String getBaseUrl() {
+        String env = System.getProperty("env", "test");
+        Map<String, Object> envConfig = ConfigManager.getEnvironmentConfig(env);
+        return envConfig != null ? envConfig.get("baseUrl").toString() : null;
+    }
+    
+    /**
+     * Get API key from YAML configuration for the current environment
+     */
+    public static String getApiKey() {
+        String env = System.getProperty("env", "test");
+        Map<String, Object> envConfig = ConfigManager.getEnvironmentConfig(env);
+        return envConfig != null ? envConfig.get("apiKey").toString() : null;
+    }
+    
+    /**
+     * Get timeout from YAML configuration for the current environment
+     */
+    public static int getTimeout() {
+        String env = System.getProperty("env", "test");
+        Map<String, Object> envConfig = ConfigManager.getEnvironmentConfig(env);
+        return envConfig != null ? Integer.parseInt(envConfig.get("timeout").toString()) : 30;
+    }
+    
+    /**
+     * Configure RestAssured with settings from YAML configuration
+     */
+    public static void configureRestAssured() {
+        String baseUrl = getBaseUrl();
+        int timeout = getTimeout();
+        
+        if (baseUrl != null) {
+            RestAssured.baseURI = baseUrl;
+        }
+        
+        // Configure timeout
+        RestAssured.config = RestAssured.config()
+                .httpClient(HttpClientConfig.httpClientConfig()
+                        .setParam("http.connection.timeout", timeout * 1000)
+                        .setParam("http.socket.timeout", timeout * 1000));
+    }
 
 	public static FileInputStream getPropertyFileInput(String envType) throws FileNotFoundException {
 		// TODO Auto-generated

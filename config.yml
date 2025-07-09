@@ -1,0 +1,38 @@
+# Test Environment Configuration
+environments:
+  test:
+    baseUrl: https://test-api.example.com
+    apiKey: test-api-key
+    timeout: 30
+    retries: 2
+
+  staging:
+    baseUrl: https://staging-api.example.com
+    apiKey: staging-api-key
+    timeout: 30
+    retries: 1
+
+  production:
+    baseUrl: https://api.example.com
+    apiKey: ${PROD_API_KEY}
+    timeout: 60
+    retries: 0
+
+# Test Execution Configuration
+execution:
+  parallel: true
+  threads: 3
+  features:
+    - externalLogin
+    - vasUpsell
+    - notification
+
+# Reporting Configuration
+reporting:
+  screenshots: true
+  screenshotOnFailure: true
+  extentReports:
+    theme: dark
+    documentTitle: "Maersk API Test Results"
+    reportName: "Maersk API Test Report"
+    timeStampFormat: "yyyy-MM-dd HH:mm:ss"

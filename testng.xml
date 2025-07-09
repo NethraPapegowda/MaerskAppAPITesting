@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Maersk BDD Suite">
+  <test thread-count="5" name="External Login API Tests">
+    <classes>
+      <class name="scriptRunner.externalLoginAPIRunner"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="VAS Upsell API Tests">
+    <classes>
+      <class name="scriptRunner.vasUpselAPIRunner"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="Notification API Tests">
+    <classes>
+      <class name="scriptRunner.notificationAPIRunner"/>
+    </classes>
+  </test>
+</suite> <!-- Maersk BDD Suite -->

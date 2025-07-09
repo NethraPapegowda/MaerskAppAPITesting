@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="8.707">
+    <testcase classname="Notifications API" name="Validate the Notification Preferences API for valid device ID" time="3.516">
+        <system-out><![CDATA[Given a authoriztionId and device ID "f44abee1-872d-47ff-80e2-0c74880fcdf9".passed
+When I send a GET request to Notification Preferences API endpoint..........passed
+Then the response status code of Notification Preferences API request should be "200".passed
+And the response body should contain the user's notification preferences....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Notifications API" name="Validate the Notification Preferences API for an invalid device ID" time="2.339">
+        <system-out><![CDATA[Given a authoriztionId and device ID "f44abee1-872d-80e2-0c74880fcdf9"......passed
+When I send a GET request to Notification Preferences API endpoint..........passed
+Then the response status code of Notification Preferences API request should be "404".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Notifications API" name="Validate the Notification Preferences API for an invalid device ID 2" time="1.588">
+        <system-out><![CDATA[Given a authoriztionId and device ID "".....................................passed
+When I send a GET request to Notification Preferences API endpoint..........passed
+Then the response status code of Notification Preferences API request should be "404".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Notifications API" name="Validate the Notification Preferences API for an unauthorized user" time="1.24">
+        <system-out><![CDATA[Given a invalid authoriztionId and device ID "f44abee1-872d-47ff-80e2-0c74880fcdf9" exists in the system.passed
+When I send a GET request to Notification Preferences API endpoint..........passed
+Then the response status code of Notification Preferences API request should be "401".passed
+]]></system-out>
+    </testcase>
+</testsuite>

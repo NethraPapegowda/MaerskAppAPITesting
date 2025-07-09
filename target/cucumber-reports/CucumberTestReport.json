@@ -1,0 +1,261 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-07-09T06:47:50.275Z",
+        "line": 14,
+        "name": "Validate the Notification Preferences API for valid device ID",
+        "description": "",
+        "id": "notifications-api;validate-the-notification-preferences-api-for-valid-device-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1790658000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "a authoriztionId and device ID \"f44abee1-872d-47ff-80e2-0c74880fcdf9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"f44abee1-872d-47ff-80e2-0c74880fcdf9\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.maersk.definations.notificationDefinations.setAuthorizationDeviceID_NotificationsPreferencesAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1715739000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I send a GET request to Notification Preferences API endpoint",
+            "match": {
+              "location": "com.maersk.definations.notificationDefinations.sendGetRequest_NotificationsPreferencesAPI()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4924000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the response status code of Notification Preferences API request should be \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 75
+                }
+              ],
+              "location": "com.maersk.definations.notificationDefinations.verifyStatusCode_NotificationsPreferencesAPI(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 585000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the response body should contain the user\u0027s notification preferences",
+            "match": {
+              "location": "com.maersk.definations.notificationDefinations.verifyResponse_NotificationsPreferencesAPI()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-09T06:47:53.798Z",
+        "line": 24,
+        "name": "Validate the Notification Preferences API for an invalid device ID",
+        "description": "",
+        "id": "notifications-api;validate-the-notification-preferences-api-for-an-invalid-device-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1060526000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a authoriztionId and device ID \"f44abee1-872d-80e2-0c74880fcdf9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"f44abee1-872d-80e2-0c74880fcdf9\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.maersk.definations.notificationDefinations.setAuthorizationDeviceID_NotificationsPreferencesAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1276864000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I send a GET request to Notification Preferences API endpoint",
+            "match": {
+              "location": "com.maersk.definations.notificationDefinations.sendGetRequest_NotificationsPreferencesAPI()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 589000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the response status code of Notification Preferences API request should be \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"404\"",
+                  "offset": 75
+                }
+              ],
+              "location": "com.maersk.definations.notificationDefinations.verifyStatusCode_NotificationsPreferencesAPI(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-09T06:47:56.140Z",
+        "line": 25,
+        "name": "Validate the Notification Preferences API for an invalid device ID",
+        "description": "",
+        "id": "notifications-api;validate-the-notification-preferences-api-for-an-invalid-device-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1176492000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a authoriztionId and device ID \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.maersk.definations.notificationDefinations.setAuthorizationDeviceID_NotificationsPreferencesAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 410207000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I send a GET request to Notification Preferences API endpoint",
+            "match": {
+              "location": "com.maersk.definations.notificationDefinations.sendGetRequest_NotificationsPreferencesAPI()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 457000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the response status code of Notification Preferences API request should be \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"404\"",
+                  "offset": 75
+                }
+              ],
+              "location": "com.maersk.definations.notificationDefinations.verifyStatusCode_NotificationsPreferencesAPI(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-09T06:47:57.731Z",
+        "line": 35,
+        "name": "Validate the Notification Preferences API for an unauthorized user",
+        "description": "",
+        "id": "notifications-api;validate-the-notification-preferences-api-for-an-unauthorized-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 162000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "a invalid authoriztionId and device ID \"f44abee1-872d-47ff-80e2-0c74880fcdf9\" exists in the system",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"f44abee1-872d-47ff-80e2-0c74880fcdf9\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.maersk.definations.notificationDefinations.setInvalidAuthorizationDeviceID_NotificationsPreferencesAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1237187000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I send a GET request to Notification Preferences API endpoint",
+            "match": {
+              "location": "com.maersk.definations.notificationDefinations.sendGetRequest_NotificationsPreferencesAPI()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1282000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the response status code of Notification Preferences API request should be \"401\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"401\"",
+                  "offset": 75
+                }
+              ],
+              "location": "com.maersk.definations.notificationDefinations.verifyStatusCode_NotificationsPreferencesAPI(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Notifications API",
+    "description": "  I want to test notifications APIs",
+    "id": "notifications-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/notifications.feature",
+    "tags": []
+  }
+]

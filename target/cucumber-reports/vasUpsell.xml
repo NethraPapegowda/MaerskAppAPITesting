@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="17.875">
+    <testcase classname="Free time API" name="Submit free time information with valid authorization and valid container number" time="4.567">
+        <system-out><![CDATA[Given I have a authoriztionId and container number "MOBILE101"..............passed
+When I send an POST request to DND free time API with container number......passed
+Then the response status code of DND free time API should be "200"..........passed
+And the response should indicate successful creation for the given container number.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Free time API" name="Submit free time information with valid authorization and invalid container number" time="2.436">
+        <system-out><![CDATA[Given I have a authoriztionId and container number "INVALID123".............passed
+When I send an POST request to DND free time API with container number......passed
+Then the response status code of DND free time API should be "400"..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Free time API" name="Submit free time information with invalid authorization and container number" time="0.347">
+        <system-out><![CDATA[Given I have a invalid authoriztionId and container number "MOBILE101"......passed
+When I send an POST request to DND free time API with container number......passed
+Then the response status code of DND free time API should be "401"..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Free time API" name="Submit free time information with valid authorization and valid container number for multiple data" time="4.974">
+        <system-out><![CDATA[Given I have a authoriztionId and container number "MOBILE101"..............passed
+When I send an POST request to DND free time API with container number......passed
+Then the response status code of DND free time API should be "200"..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Free time API" name="Submit free time information with valid authorization and valid container number for multiple data 2" time="3.062">
+        <system-out><![CDATA[Given I have a authoriztionId and container number "MOBILE102"..............passed
+When I send an POST request to DND free time API with container number......passed
+Then the response status code of DND free time API should be "403"..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Free time API" name="Submit free time information with valid authorization and valid container number for multiple data 3" time="2.454">
+        <system-out><![CDATA[Given I have a authoriztionId and container number "UNKNOWN123".............passed
+When I send an POST request to DND free time API with container number......passed
+Then the response status code of DND free time API should be "400"..........passed
+]]></system-out>
+    </testcase>
+</testsuite>

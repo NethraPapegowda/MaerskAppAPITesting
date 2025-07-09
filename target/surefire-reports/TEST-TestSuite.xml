@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="43.331" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/nethrapapegowda/eclipse-workspace/BDD_MaerskApp/target/test-classes:/Users/nethrapapegowda/eclipse-workspace/BDD_MaerskApp/target/classes:/Users/nethrapapegowda/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/nethrapapegowda/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/nethrapapegowda/.m2/repository/io/rest-assured/rest-assured/4.5.0/rest-assured-4.5.0.jar:/Users/nethrapapegowda/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.9/groovy-xml-3.0.9.jar:/Users/nethrapapegowda/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/nethrapapegowda/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/nethrapapegowda/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/nethrapapegowda/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/nethrapapegowda/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/nethrapapegowda/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/nethrapapegowda/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/nethrapapegowda/.m2/repository/io/rest-assured/xml-path/4.5.0/xml-path-4.5.0.jar:/Users/nethrapapegowda/.m2/repository/io/rest-assured/json-path/4.5.0/json-path-4.5.0.jar:/Users/nethrapapegowda/.m2/repository/org/codehaus/groovy/groovy-json/3.0.9/groovy-json-3.0.9.jar:/Users/nethrapapegowda/.m2/repository/org/codehaus/groovy/groovy/3.0.9/groovy-3.0.9.jar:/Users/nethrapapegowda/.m2/repository/io/rest-assured/rest-assured-common/4.5.0/rest-assured-common-4.5.0.jar:/Users/nethrapapegowda/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/nethrapapegowda/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/nethrapapegowda/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/nethrapapegowda/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/nethrapapegowda/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/nethrapapegowda/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/nethrapapegowda/.m2/repository/tech/grasshopper/extentreports-cucumber6-adapter/2.13.0/extentreports-cucumber6-adapter-2.13.0.jar:/Users/nethrapapegowda/.m2/repository/tech/grasshopper/extent-pdf-report/2.7.0/extent-pdf-report-2.7.0.jar:/Users/nethrapapegowda/.m2/repository/tech/grasshopper/cucumber-pdf-report/2.10.0/cucumber-pdf-report-2.10.0.jar:/Users/nethrapapegowda/.m2/repository/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.jar:/Users/nethrapapegowda/.m2/repository/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.jar:/Users/nethrapapegowda/.m2/repository/org/knowm/xchart/xchart/3.8.0/xchart-3.8.0.jar:/Users/nethrapapegowda/.m2/repository/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar:/Users/nethrapapegowda/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/nethrapapegowda/.m2/repository/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar:/Users/nethrapapegowda/.m2/repository/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar:/Users/nethrapapegowda/.m2/repository/tech/grasshopper/table-layout/1.5.1/table-layout-1.5.1.jar:/Users/nethrapapegowda/.m2/repository/tech/grasshopper/rest-assured-cucumber-pdf-report/1.4.1/rest-assured-cucumber-pdf-report-1.4.1.jar:/Users/nethrapapegowda/.m2/repository/com/aventstack/klov-reporter/5.0.9/klov-reporter-5.0.9.jar:/Users/nethrapapegowda/.m2/repository/org/mongodb/bson/3.6.4/bson-3.6.4.jar:/Users/nethrapapegowda/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar:/Users/nethrapapegowda/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/nethrapapegowda/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/nethrapapegowda/.m2/repository/io/rest-assured/json-schema-validator/5.5.0/json-schema-validator-5.5.0.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/nethrapapegowda/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/nethrapapegowda/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/nethrapapegowda/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/nethrapapegowda/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/nethrapapegowda/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/nethrapapegowda/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/nethrapapegowda/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/nethrapapegowda/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/nethrapapegowda/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/nethrapapegowda/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/nethrapapegowda/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/nethrapapegowda/.m2/repository/com/github/erosb/everit-json-schema/1.14.4/everit-json-schema-1.14.4.jar:/Users/nethrapapegowda/.m2/repository/org/json/json/20231013/json-20231013.jar:/Users/nethrapapegowda/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/nethrapapegowda/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/nethrapapegowda/.m2/repository/com/damnhandy/handy-uri-templates/2.1.8/handy-uri-templates-2.1.8.jar:/Users/nethrapapegowda/.m2/repository/com/google/re2j/re2j/1.6/re2j-1.6.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-java/6.10.3/cucumber-java-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/gherkin/18.1.0/gherkin-18.1.0.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-testng/6.10.3/cucumber-testng-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-core/6.10.3/cucumber-core-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-gherkin/6.10.3/cucumber-gherkin-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.3/cucumber-gherkin-messages-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-plugin/6.10.3/cucumber-plugin-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/docstring/6.10.3/docstring-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-junit/6.10.3/cucumber-junit-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/nethrapapegowda/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/nethrapapegowda/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/nethrapapegowda/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/nethrapapegowda/.m2/repository/net/masterthought/cucumber-reporting/5.7.0/cucumber-reporting-5.7.0.jar:/Users/nethrapapegowda/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/Users/nethrapapegowda/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:/Users/nethrapapegowda/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/Users/nethrapapegowda/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.0/jackson-datatype-jsr310-2.13.0.jar:/Users/nethrapapegowda/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/nethrapapegowda/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/nethrapapegowda/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/nethrapapegowda/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/nethrapapegowda/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/nethrapapegowda/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/nethrapapegowda/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/nethrapapegowda/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/nethrapapegowda/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/nethrapapegowda/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/nethrapapegowda/eclipse-workspace/BDD_MaerskApp/target/surefire/surefirebooter5455130187145666145.jar /Users/nethrapapegowda/eclipse-workspace/BDD_MaerskApp/target/surefire 2025-07-09T12-17-17_788-jvmRun1 surefire743912933442119555tmp surefire_09450086811784256709tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/nethrapapegowda/eclipse-workspace/BDD_MaerskApp/target/test-classes:/Users/nethrapapegowda/eclipse-workspace/BDD_MaerskApp/target/classes:/Users/nethrapapegowda/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/nethrapapegowda/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/nethrapapegowda/.m2/repository/io/rest-assured/rest-assured/4.5.0/rest-assured-4.5.0.jar:/Users/nethrapapegowda/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.9/groovy-xml-3.0.9.jar:/Users/nethrapapegowda/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/nethrapapegowda/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/nethrapapegowda/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/nethrapapegowda/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/nethrapapegowda/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/nethrapapegowda/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/nethrapapegowda/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/nethrapapegowda/.m2/repository/io/rest-assured/xml-path/4.5.0/xml-path-4.5.0.jar:/Users/nethrapapegowda/.m2/repository/io/rest-assured/json-path/4.5.0/json-path-4.5.0.jar:/Users/nethrapapegowda/.m2/repository/org/codehaus/groovy/groovy-json/3.0.9/groovy-json-3.0.9.jar:/Users/nethrapapegowda/.m2/repository/org/codehaus/groovy/groovy/3.0.9/groovy-3.0.9.jar:/Users/nethrapapegowda/.m2/repository/io/rest-assured/rest-assured-common/4.5.0/rest-assured-common-4.5.0.jar:/Users/nethrapapegowda/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/nethrapapegowda/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/nethrapapegowda/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/nethrapapegowda/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/nethrapapegowda/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/nethrapapegowda/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/nethrapapegowda/.m2/repository/tech/grasshopper/extentreports-cucumber6-adapter/2.13.0/extentreports-cucumber6-adapter-2.13.0.jar:/Users/nethrapapegowda/.m2/repository/tech/grasshopper/extent-pdf-report/2.7.0/extent-pdf-report-2.7.0.jar:/Users/nethrapapegowda/.m2/repository/tech/grasshopper/cucumber-pdf-report/2.10.0/cucumber-pdf-report-2.10.0.jar:/Users/nethrapapegowda/.m2/repository/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.jar:/Users/nethrapapegowda/.m2/repository/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.jar:/Users/nethrapapegowda/.m2/repository/org/knowm/xchart/xchart/3.8.0/xchart-3.8.0.jar:/Users/nethrapapegowda/.m2/repository/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar:/Users/nethrapapegowda/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/nethrapapegowda/.m2/repository/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar:/Users/nethrapapegowda/.m2/repository/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar:/Users/nethrapapegowda/.m2/repository/tech/grasshopper/table-layout/1.5.1/table-layout-1.5.1.jar:/Users/nethrapapegowda/.m2/repository/tech/grasshopper/rest-assured-cucumber-pdf-report/1.4.1/rest-assured-cucumber-pdf-report-1.4.1.jar:/Users/nethrapapegowda/.m2/repository/com/aventstack/klov-reporter/5.0.9/klov-reporter-5.0.9.jar:/Users/nethrapapegowda/.m2/repository/org/mongodb/bson/3.6.4/bson-3.6.4.jar:/Users/nethrapapegowda/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar:/Users/nethrapapegowda/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/nethrapapegowda/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/nethrapapegowda/.m2/repository/io/rest-assured/json-schema-validator/5.5.0/json-schema-validator-5.5.0.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/nethrapapegowda/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/nethrapapegowda/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/nethrapapegowda/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/nethrapapegowda/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/nethrapapegowda/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/nethrapapegowda/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/nethrapapegowda/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/nethrapapegowda/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/nethrapapegowda/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/nethrapapegowda/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/nethrapapegowda/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/nethrapapegowda/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/nethrapapegowda/.m2/repository/com/github/erosb/everit-json-schema/1.14.4/everit-json-schema-1.14.4.jar:/Users/nethrapapegowda/.m2/repository/org/json/json/20231013/json-20231013.jar:/Users/nethrapapegowda/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/nethrapapegowda/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/nethrapapegowda/.m2/repository/com/damnhandy/handy-uri-templates/2.1.8/handy-uri-templates-2.1.8.jar:/Users/nethrapapegowda/.m2/repository/com/google/re2j/re2j/1.6/re2j-1.6.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-java/6.10.3/cucumber-java-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/gherkin/18.1.0/gherkin-18.1.0.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-testng/6.10.3/cucumber-testng-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-core/6.10.3/cucumber-core-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-gherkin/6.10.3/cucumber-gherkin-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.3/cucumber-gherkin-messages-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-plugin/6.10.3/cucumber-plugin-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/docstring/6.10.3/docstring-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/nethrapapegowda/.m2/repository/io/cucumber/cucumber-junit/6.10.3/cucumber-junit-6.10.3.jar:/Users/nethrapapegowda/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/nethrapapegowda/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/nethrapapegowda/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/nethrapapegowda/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/nethrapapegowda/.m2/repository/net/masterthought/cucumber-reporting/5.7.0/cucumber-reporting-5.7.0.jar:/Users/nethrapapegowda/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/Users/nethrapapegowda/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:/Users/nethrapapegowda/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/Users/nethrapapegowda/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.0/jackson-datatype-jsr310-2.13.0.jar:/Users/nethrapapegowda/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/nethrapapegowda/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/nethrapapegowda/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/nethrapapegowda/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/nethrapapegowda/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/nethrapapegowda/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/nethrapapegowda/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/nethrapapegowda/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/nethrapapegowda/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/nethrapapegowda/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/nethrapapegowda"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/nethrapapegowda/eclipse-workspace/BDD_MaerskApp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/nethrapapegowda/eclipse-workspace/BDD_MaerskApp/target/surefire/surefirebooter5455130187145666145.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="nethrapapegowda"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/nethrapapegowda/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/89/mnjggkq52sj3r2lmhks2hdqm0000gn/T/"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="/Users/nethrapapegowda/eclipse-workspace/BDD_MaerskApp"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/nethrapapegowda/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Validate Authentication External Login API with valid credentials for multiple user&quot;, &quot;Optional[Authentication External Login API]&quot;](1)" classname="scriptRunner.externalLoginAPIRunner" time="2.548">
+    <system-out><![CDATA[
+Scenario Outline: Validate Authentication External Login API with valid credentials for multiple user  # src/test/resources/features/externalLogin.feature:15
+  Given I enter username as "mob_user_2" and password as "Maersk@6"                                    # com.maersk.definations.externalLoginDefinations.setCredentials_AuthenticationExternalLoginAPI(java.lang.String,java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob_user_2",
+    "password": "Maersk@6"
+}
+Response Status: 200
+Response Body: {
+    "result": "SUCCESS",
+    "tokenId": "kNNEbyHzHuYuxdbd-a4d1nyJuik.*AAJTSQACMDIAAlNLABxpZWtjY1hsb2Z0dHZUckdxRnlUdm5mbWdPVEU9AAR0eXBlAANDVFMAAlMxAAIwNA..*",
+    "authId": null,
+    "multifactor": false
+}
+  When I send a POST request for Authentication External Login API with given credentials              # com.maersk.definations.externalLoginDefinations.sendPostRequest_AuthenticationExternalLoginAPI()
+  Then I verify the status as "200" for given credentials                                              # com.maersk.definations.externalLoginDefinations.verifyStatusCode(java.lang.String)
+  And I verify the result for Authentication External Login API as "SUCCESS" with given credentials    # com.maersk.definations.externalLoginDefinations.verifyResult_AuthenticationExternalLoginAPI(java.lang.String)
+***************kNNEbyHzHuYuxdbd-a4d1nyJuik.*AAJTSQACMDIAAlNLABxpZWtjY1hsb2Z0dHZUckdxRnlUdm5mbWdPVEU9AAR0eXBlAANDVFMAAlMxAAIwNA..*
+  And I want to get token_id from response of Authentication External Login API with given credentials # com.maersk.definations.externalLoginDefinations.getTokenId_AuthenticationExternalLoginAPI()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[Fatal Error] :1:1: Premature end of file.
+Jul 09, 2025 12:17:18 PM com.aventstack.extentreports.config.external.XmlConfigLoader getConfigStore
+SEVERE: Failed to load external configuration
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+	at com.aventstack.extentreports.config.external.XmlConfigLoader.getConfigStore(XmlConfigLoader.java:61)
+	at com.aventstack.extentreports.config.external.XmlConfigLoader.apply(XmlConfigLoader.java:46)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:96)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:101)
+	at com.aventstack.extentreports.service.ExtentService$ExtentReportsLoader.attach(ExtentService.java:288)
+	at com.aventstack.extentreports.service.ExtentService$ExtentReportsLoader.initSpark(ExtentService.java:243)
+	at com.aventstack.extentreports.service.ExtentService$ExtentReportsLoader.createViaProperties(ExtentService.java:140)
+	at com.aventstack.extentreports.service.ExtentService$ExtentReportsLoader.<clinit>(ExtentService.java:118)
+	at com.aventstack.extentreports.service.ExtentService.getInstance(ExtentService.java:38)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.<init>(ExtentCucumberAdapter.java:141)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at io.cucumber.core.plugin.PluginFactory.newInstance(PluginFactory.java:116)
+	at io.cucumber.core.plugin.PluginFactory.instantiate(PluginFactory.java:99)
+	at io.cucumber.core.plugin.PluginFactory.create(PluginFactory.java:63)
+	at io.cucumber.core.plugin.Plugins.createPlugins(Plugins.java:32)
+	at io.cucumber.core.plugin.Plugins.<init>(Plugins.java:25)
+	at io.cucumber.testng.TestNGCucumberRunner.<init>(TestNGCucumberRunner.java:92)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.config.ConfigStore.getStore()" because "store" is null
+	at com.aventstack.extentreports.config.external.XmlConfigLoader.apply(XmlConfigLoader.java:48)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:96)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:101)
+	at com.aventstack.extentreports.service.ExtentService$ExtentReportsLoader.attach(ExtentService.java:288)
+	at com.aventstack.extentreports.service.ExtentService$ExtentReportsLoader.initSpark(ExtentService.java:243)
+	at com.aventstack.extentreports.service.ExtentService$ExtentReportsLoader.createViaProperties(ExtentService.java:140)
+	at com.aventstack.extentreports.service.ExtentService$ExtentReportsLoader.<clinit>(ExtentService.java:118)
+	at com.aventstack.extentreports.service.ExtentService.getInstance(ExtentService.java:38)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.<init>(ExtentCucumberAdapter.java:141)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at io.cucumber.core.plugin.PluginFactory.newInstance(PluginFactory.java:116)
+	at io.cucumber.core.plugin.PluginFactory.instantiate(PluginFactory.java:99)
+	at io.cucumber.core.plugin.PluginFactory.create(PluginFactory.java:63)
+	at io.cucumber.core.plugin.Plugins.createPlugins(Plugins.java:32)
+	at io.cucumber.core.plugin.Plugins.<init>(Plugins.java:25)
+	at io.cucumber.testng.TestNGCucumberRunner.<init>(TestNGCucumberRunner.java:92)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate Authentication External Login API with valid credentials for multiple user&quot;, &quot;Optional[Authentication External Login API]&quot;](2)" classname="scriptRunner.externalLoginAPIRunner" time="0.71">
+    <system-out><![CDATA[
+Scenario Outline: Validate Authentication External Login API with valid credentials for multiple user  # src/test/resources/features/externalLogin.feature:16
+  Given I enter username as "mob-3" and password as "Maersk@13"                                        # com.maersk.definations.externalLoginDefinations.setCredentials_AuthenticationExternalLoginAPI(java.lang.String,java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob-3",
+    "password": "Maersk@13"
+}
+Response Status: 200
+Response Body: {
+    "result": "SUCCESS",
+    "tokenId": "0L8oc4n-37JOusoCjnVvk2ebnt8.*AAJTSQACMDIAAlNLABw5UUhFb3B2b2t2aUhTT3poYi93bzl3Y3ZhZlU9AAR0eXBlAANDVFMAAlMxAAIwNA..*",
+    "authId": null,
+    "multifactor": false
+}
+  When I send a POST request for Authentication External Login API with given credentials              # com.maersk.definations.externalLoginDefinations.sendPostRequest_AuthenticationExternalLoginAPI()
+  Then I verify the status as "200" for given credentials                                              # com.maersk.definations.externalLoginDefinations.verifyStatusCode(java.lang.String)
+  And I verify the result for Authentication External Login API as "SUCCESS" with given credentials    # com.maersk.definations.externalLoginDefinations.verifyResult_AuthenticationExternalLoginAPI(java.lang.String)
+***************0L8oc4n-37JOusoCjnVvk2ebnt8.*AAJTSQACMDIAAlNLABw5UUhFb3B2b2t2aUhTT3poYi93bzl3Y3ZhZlU9AAR0eXBlAANDVFMAAlMxAAIwNA..*
+  And I want to get token_id from response of Authentication External Login API with given credentials # com.maersk.definations.externalLoginDefinations.getTokenId_AuthenticationExternalLoginAPI()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate  Authentication External Login API with invalid credentials&quot;, &quot;Optional[Authentication External Login API]&quot;](3)" classname="scriptRunner.externalLoginAPIRunner" time="0.617">
+    <system-out><![CDATA[
+Scenario Outline: Validate  Authentication External Login API with invalid credentials                        # src/test/resources/features/externalLogin.feature:27
+  Given I enter username as "mob_user_2" and password as "Maersk@7"                                           # com.maersk.definations.externalLoginDefinations.setCredentials_AuthenticationExternalLoginAPI(java.lang.String,java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob_user_2",
+    "password": "Maersk@7"
+}
+Response Status: 401
+Response Body: {
+    "method": "POST",
+    "requestUri": "/authentication/external",
+    "status": 401,
+    "timestamp": "09-07-2025 06:47:22",
+    "message": "Invalid password",
+    "debugMessage": "?error='Invalid Credentials'&error_description='Invalid Credentials'&attemptsLeft=4&errorCode=100008",
+    "id": "0"
+}
+  When I send a POST request for Authentication External Login API with given credentials                     # com.maersk.definations.externalLoginDefinations.sendPostRequest_AuthenticationExternalLoginAPI()
+  Then I verify the status as "401" for given credentials                                                     # com.maersk.definations.externalLoginDefinations.verifyStatusCode(java.lang.String)
+  And I verify the message for Authentication External Login API as "Invalid password" with given credentials # com.maersk.definations.externalLoginDefinations.verifyMessage(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate  Authentication External Login API with invalid credentials&quot;, &quot;Optional[Authentication External Login API]&quot;](4)" classname="scriptRunner.externalLoginAPIRunner" time="0.923">
+    <system-out><![CDATA[
+Scenario Outline: Validate  Authentication External Login API with invalid credentials                        # src/test/resources/features/externalLogin.feature:28
+  Given I enter username as "mob_user_21" and password as "Maersk@7"                                          # com.maersk.definations.externalLoginDefinations.setCredentials_AuthenticationExternalLoginAPI(java.lang.String,java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob_user_21",
+    "password": "Maersk@7"
+}
+Response Status: 401
+Response Body: {
+    "method": "POST",
+    "requestUri": "/authentication/external",
+    "status": 401,
+    "timestamp": "09-07-2025 06:47:23",
+    "message": "Invalid username",
+    "debugMessage": "?error='Invalid Credentials'&error_description='Invalid Credentials'&errorCode=100008",
+    "id": "0"
+}
+  When I send a POST request for Authentication External Login API with given credentials                     # com.maersk.definations.externalLoginDefinations.sendPostRequest_AuthenticationExternalLoginAPI()
+  Then I verify the status as "401" for given credentials                                                     # com.maersk.definations.externalLoginDefinations.verifyStatusCode(java.lang.String)
+  And I verify the message for Authentication External Login API as "Invalid username" with given credentials # com.maersk.definations.externalLoginDefinations.verifyMessage(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate  Authentication External Login API with invalid credentials&quot;, &quot;Optional[Authentication External Login API]&quot;](5)" classname="scriptRunner.externalLoginAPIRunner" time="0.416">
+    <system-out><![CDATA[
+Scenario Outline: Validate  Authentication External Login API with invalid credentials                         # src/test/resources/features/externalLogin.feature:29
+  Given I enter username as "" and password as "Maersk@7"                                                      # com.maersk.definations.externalLoginDefinations.setCredentials_AuthenticationExternalLoginAPI(java.lang.String,java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "",
+    "password": "Maersk@7"
+}
+Response Status: 400
+Response Body: {
+    "method": "POST",
+    "requestUri": "/authentication/external",
+    "status": 400,
+    "timestamp": "09-07-2025 06:47:23",
+    "message": "Validation errors",
+    "subErrors": [
+        {
+            "field": "username",
+            "rejectedValue": "",
+            "message": "must not be blank"
+        }
+    ],
+    "id": "0"
+}
+  When I send a POST request for Authentication External Login API with given credentials                      # com.maersk.definations.externalLoginDefinations.sendPostRequest_AuthenticationExternalLoginAPI()
+  Then I verify the status as "400" for given credentials                                                      # com.maersk.definations.externalLoginDefinations.verifyStatusCode(java.lang.String)
+********************** field : username must not be blank
+  And I verify the message for Authentication External Login API as "Validation errors" with given credentials # com.maersk.definations.externalLoginDefinations.verifyMessage(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate  Authentication External Login API with invalid credentials&quot;, &quot;Optional[Authentication External Login API]&quot;](6)" classname="scriptRunner.externalLoginAPIRunner" time="0.711">
+    <system-out><![CDATA[
+Scenario Outline: Validate  Authentication External Login API with invalid credentials                         # src/test/resources/features/externalLogin.feature:30
+  Given I enter username as "mob_user_2" and password as ""                                                    # com.maersk.definations.externalLoginDefinations.setCredentials_AuthenticationExternalLoginAPI(java.lang.String,java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob_user_2",
+    "password": ""
+}
+Response Status: 400
+Response Body: {
+    "method": "POST",
+    "requestUri": "/authentication/external",
+    "status": 400,
+    "timestamp": "09-07-2025 06:47:24",
+    "message": "Validation errors",
+    "subErrors": [
+        {
+            "field": "password",
+            "rejectedValue": "",
+            "message": "must not be blank"
+        }
+    ],
+    "id": "0"
+}
+  When I send a POST request for Authentication External Login API with given credentials                      # com.maersk.definations.externalLoginDefinations.sendPostRequest_AuthenticationExternalLoginAPI()
+  Then I verify the status as "400" for given credentials                                                      # com.maersk.definations.externalLoginDefinations.verifyStatusCode(java.lang.String)
+********************** field : password must not be blank
+  And I verify the message for Authentication External Login API as "Validation errors" with given credentials # com.maersk.definations.externalLoginDefinations.verifyMessage(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate  Authentication External Login API with invalid credentials&quot;, &quot;Optional[Authentication External Login API]&quot;](7)" classname="scriptRunner.externalLoginAPIRunner" time="1.728">
+    <system-out><![CDATA[
+Scenario Outline: Validate  Authentication External Login API with invalid credentials                         # src/test/resources/features/externalLogin.feature:31
+  Given I enter username as "" and password as ""                                                              # com.maersk.definations.externalLoginDefinations.setCredentials_AuthenticationExternalLoginAPI(java.lang.String,java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "",
+    "password": ""
+}
+Response Status: 400
+Response Body: {
+    "method": "POST",
+    "requestUri": "/authentication/external",
+    "status": 400,
+    "timestamp": "09-07-2025 06:47:26",
+    "message": "Validation errors",
+    "subErrors": [
+        {
+            "field": "password",
+            "rejectedValue": "",
+            "message": "must not be blank"
+        },
+        {
+            "field": "username",
+            "rejectedValue": "",
+            "message": "must not be blank"
+        }
+    ],
+    "id": "0"
+}
+  When I send a POST request for Authentication External Login API with given credentials                      # com.maersk.definations.externalLoginDefinations.sendPostRequest_AuthenticationExternalLoginAPI()
+  Then I verify the status as "400" for given credentials                                                      # com.maersk.definations.externalLoginDefinations.verifyStatusCode(java.lang.String)
+********************** field : password must not be blank
+  And I verify the message for Authentication External Login API as "Validation errors" with given credentials # com.maersk.definations.externalLoginDefinations.verifyMessage(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate Authentication External Login API with valid credentials for single user&quot;, &quot;Optional[Authentication External Login API]&quot;](8)" classname="scriptRunner.externalLoginAPIRunner" time="1.235">
+    <system-out><![CDATA[
+Scenario Outline: Validate Authentication External Login API with valid credentials for single user    # src/test/resources/features/externalLogin.feature:43
+  Given I enter username as "mob_user_2" and password as "Maersk@6"                                    # com.maersk.definations.externalLoginDefinations.setCredentials_AuthenticationExternalLoginAPI(java.lang.String,java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob_user_2",
+    "password": "Maersk@6"
+}
+Response Status: 200
+Response Body: {
+    "result": "SUCCESS",
+    "tokenId": "iGRGy500l6vx27Mmvtdpq75trp8.*AAJTSQACMDIAAlNLABxwNUNEOTlNQXlhZVc3RHlWUGJoTVBMODQvUTg9AAR0eXBlAANDVFMAAlMxAAIwNA..*",
+    "authId": null,
+    "multifactor": false
+}
+  When I send a POST request for Authentication External Login API with given credentials              # com.maersk.definations.externalLoginDefinations.sendPostRequest_AuthenticationExternalLoginAPI()
+  Then I verify the status as "200" for given credentials                                              # com.maersk.definations.externalLoginDefinations.verifyStatusCode(java.lang.String)
+***************iGRGy500l6vx27Mmvtdpq75trp8.*AAJTSQACMDIAAlNLABxwNUNEOTlNQXlhZVc3RHlWUGJoTVBMODQvUTg9AAR0eXBlAANDVFMAAlMxAAIwNA..*
+  And I want to get token_id from response of Authentication External Login API with given credentials # com.maersk.definations.externalLoginDefinations.getTokenId_AuthenticationExternalLoginAPI()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate Refresh Token Login API for successful token generation with a valid CustomerCode&quot;, &quot;Optional[Authentication External Login API]&quot;](9)" classname="scriptRunner.externalLoginAPIRunner" time="0.501">
+    <system-out><![CDATA[
+Scenario: Validate Refresh Token Login API for successful token generation with a valid CustomerCode                     # src/test/resources/features/externalLogin.feature:58
+  Given I have a valid token_id and CustomerCode as "10000007951"                                                        # com.maersk.definations.externalLoginDefinations.settokenIdCustomerCode_ExternalTokenGenerationAPI(java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/tokens/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				idToken=iGRGy500l6vx27Mmvtdpq75trp8.*AAJTSQACMDIAAlNLABxwNUNEOTlNQXlhZVc3RHlWUGJoTVBMODQvUTg9AAR0eXBlAANDVFMAAlMxAAIwNA..*
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "customerCode": "10000007951"
+}
+Response Status: 200
+Response Body: {
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcxOTc4Iiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiYWNjZXNzX3Rva2VuIiwidG9rZW5fdHlwZSI6IkJlYXJlciIsImF1dGhHcmFudElkIjoiMmlfbkJOU2tDM0RqV2diTno5WTFGMEpJVzVzIiwibm9uY2UiOiJZRFpwMW9YUEFScmJVVUZpckw1cSIsImF1ZCI6Im1jYTAwMSIsIm5iZiI6MTc1MjA0MzY0NywiZ3JhbnRfdHlwZSI6ImF1dGhvcml6YXRpb25fY29kZSIsInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCJdLCJhdXRoX3RpbWUiOjE3NTIwNDM2NDcsInJlYWxtIjoiL21hdSIsImV4cCI6MTc1MjA1MDg0NywiaWF0IjoxNzUyMDQzNjQ3LCJleHBpcmVzX2luIjo3MjAwLCJqdGkiOiJ3WDlfMmdvRHpxOHUxTS1DZ0lnWEpqTDVueTQiLCJ1c2VyVXVpZCI6ImU4Y2Q4MzNkLWU2MTktNGE4NC1hY2YwLWY1ZWNjMWM2YTY1YiIsImVtYWlsIjoiYWhtZXIuaGFzaG1pQG1hZXJzay5jb20iLCJhY2Nlc3NUeXBlIjoiZXh0ZXJuYWwifQ.GBOzYuH7aA-mSYqUnrgUH3Y3VHaLTmDk_F7Tqu9EgkRWch9RkzeJhyrcLgHLLq7IkZqm1gV61CNQqO1rJhpEM7XJwuiv75QGLgf_7qnfDKnJuojLsvyCZoa6EXlNGPowkToKI4A8Z8D-xozrUltOUMv2yCAC8VBWu6h5wHr-vAFyACf2AsKlu9TlIC-xx8aJuJGxu6f-QX6eTi8RoZqXwBz5jxa1VObnMkTp2p6Mlw0dVWxmgUBBb7AepbuhUchET3bZv4QLlyy4NotGrStAtz5aYPGe6p1NK1MYsJVXRa3dSBrpnzduSmGV2mJMWsnY4goWzAN9oB15PE5fUXU5YA",
+    "idToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiSWVkM1Z6X1dWMlB6U0sySklrak1HZyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcxOTgwIiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NDcsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NDcsImlhdCI6MTc1MjA0MzY0NywiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoiWURacDFvWFBBUnJiVVVGaXJMNXEiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6InN3eW5qQWtNZEd0aDA1MWtCa3JTUHciLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.zWmCc7RrU1mN7eBCk0-IuxfwdgN13AUKB4fprAbY3-p8TU7TfZjliDt1l9qVKcDrX25nTgjNQRywolkQugQ3sGu6ub_GKfUHZGs0mXeyV46uKcET6xTO-HRluKMU194qdySGTYGxAM0w8q4TovzVCwdtOppEP5WWBU5I-prAm_Lh-bSHNzfd2w1Cwa3IQq-W9aYhPBloyVnYXkEmMy0-OLGpddWkkUBBEbxeA91mi412OiEi48gjA0-ICUup5c_IEYa5fjHuKNxIl77cwO8i-a_x3YpEhaPkeyTovSjBaqOFPT4uexdTGDL8EJbyK7qVG2ou_HjFMCCopxmaHFaaPwL0tyoT9PLMXOy5YpAsEz8hOkyv1ubTHIN8HPaUBwS5vLFuD3G-yc-2QR3U6-QaMZoE5oJpm5tdpj36dwFDfcH5POWbJUo4_N8Z-sfNiowLoXD9P8iatZJnAYZ4g7rdNSOgI7orl3mUwOQLXzDmDCLaxTfZdHIWKYOpvTpCpDru",
+    "refreshToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcxOTc5Iiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoicmVmcmVzaF90b2tlbiIsInRva2VuX3R5cGUiOiJCZWFyZXIiLCJhdXRoR3JhbnRJZCI6IjJpX25CTlNrQzNEaldnYk56OVkxRjBKSVc1cyIsImF1ZCI6Im1jYTAwMSIsImFjciI6IjAiLCJuYmYiOjE3NTIwNDM2NDcsImdyYW50X3R5cGUiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiZW1haWwiXSwiYXV0aF90aW1lIjoxNzUyMDQzNjQ3LCJyZWFsbSI6Ii9tYXUiLCJleHAiOjE3NTk5MzM2NDcsImlhdCI6MTc1MjA0MzY0NywiZXhwaXJlc19pbiI6Nzg5MDAwMCwianRpIjoiRTNwcktrdzFiSWJxUjNtbXQ0bEJma19rLVZJIn0.RDXti1TgfCsKQQ98K1X-H1oTgsNERSiVFPW_4zunwHZzQaY5fRP9jUh5SEmdZMfhKhswk4bph7fR548UO8HUVnljRYBJhb_A2rFIZQsoj7nNbSI34SdWJTQ8A37tJQ2jp6uHzyfoqUfJiUx92zniTiK3YJJ-ByW7hYaeR5tGaTioND5mmQCp7HKP1_Mw9beICBHuEtgvVbwDEHhGkwKLgG1W35f1jdoZ1uyFK7QuQFzZPR7YZGDO2FArVt9UV_AoSaMFt0xslxQHTZIJs0NvaUYojI96JT7iKXRDV60BeZ2KTigbhFFumf-UYF36piAHrmN4GLo6NSoTo_a3LUjNcw",
+    "exp": "2025-07-09T08:47:27.000Z",
+    "personId": null,
+    "carrierOffice": null
+}
+  When I send a POST request for Refresh Token Login API endpoint with token_id and the CustomerCode in the request body # com.maersk.definations.externalLoginDefinations.sendPostRequest_ExternalTokenGenerationAPI()
+  Then I verify the status as "200" for given credentials                                                                # com.maersk.definations.externalLoginDefinations.verifyStatusCode(java.lang.String)
+***************eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiSWVkM1Z6X1dWMlB6U0sySklrak1HZyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcxOTgwIiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NDcsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NDcsImlhdCI6MTc1MjA0MzY0NywiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoiWURacDFvWFBBUnJiVVVGaXJMNXEiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6InN3eW5qQWtNZEd0aDA1MWtCa3JTUHciLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.zWmCc7RrU1mN7eBCk0-IuxfwdgN13AUKB4fprAbY3-p8TU7TfZjliDt1l9qVKcDrX25nTgjNQRywolkQugQ3sGu6ub_GKfUHZGs0mXeyV46uKcET6xTO-HRluKMU194qdySGTYGxAM0w8q4TovzVCwdtOppEP5WWBU5I-prAm_Lh-bSHNzfd2w1Cwa3IQq-W9aYhPBloyVnYXkEmMy0-OLGpddWkkUBBEbxeA91mi412OiEi48gjA0-ICUup5c_IEYa5fjHuKNxIl77cwO8i-a_x3YpEhaPkeyTovSjBaqOFPT4uexdTGDL8EJbyK7qVG2ou_HjFMCCopxmaHFaaPwL0tyoT9PLMXOy5YpAsEz8hOkyv1ubTHIN8HPaUBwS5vLFuD3G-yc-2QR3U6-QaMZoE5oJpm5tdpj36dwFDfcH5POWbJUo4_N8Z-sfNiowLoXD9P8iatZJnAYZ4g7rdNSOgI7orl3mUwOQLXzDmDCLaxTfZdHIWKYOpvTpCpDru
+  And I want to get id_token from response of Refresh Token Login API with given credentials                             # com.maersk.definations.externalLoginDefinations.getIdToken_ExternalTokenGenerationAPI()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Submit free time information with valid authorization and valid container number&quot;, &quot;Optional[Free time API]&quot;](1)" classname="scriptRunner.vasUpselAPIRunner" time="4.583">
+    <system-out><![CDATA[
+Scenario: Submit free time information with valid authorization and valid container number # src/test/resources/features/vasUpsell.feature:8
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob_user_2",
+    "password": "Maersk@6"
+}
+{
+    "result": "SUCCESS",
+    "tokenId": "ld9bplg4vGGGKLlIHjDfRCUFjmI.*AAJTSQACMDIAAlNLABwxdm1aczhVc08yRkkyQjJvaHRtWXl1UzJrcjg9AAR0eXBlAANDVFMAAlMxAAIwNQ..*",
+    "authId": null,
+    "multifactor": false
+}
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/tokens/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				idToken=ld9bplg4vGGGKLlIHjDfRCUFjmI.*AAJTSQACMDIAAlNLABwxdm1aczhVc08yRkkyQjJvaHRtWXl1UzJrcjg9AAR0eXBlAANDVFMAAlMxAAIwNQ..*
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "customerCode": "10000007951"
+}
+{
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMDIxIiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiYWNjZXNzX3Rva2VuIiwidG9rZW5fdHlwZSI6IkJlYXJlciIsImF1dGhHcmFudElkIjoianZYRGVGdkFWd1lQTE5Wb2dqSnZyUlUwSmdBIiwibm9uY2UiOiIxcWdqN1ViT3JnVGZBZkdXNmIzYyIsImF1ZCI6Im1jYTAwMSIsIm5iZiI6MTc1MjA0MzY1MSwiZ3JhbnRfdHlwZSI6ImF1dGhvcml6YXRpb25fY29kZSIsInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCJdLCJhdXRoX3RpbWUiOjE3NTIwNDM2NTAsInJlYWxtIjoiL21hdSIsImV4cCI6MTc1MjA1MDg1MSwiaWF0IjoxNzUyMDQzNjUxLCJleHBpcmVzX2luIjo3MjAwLCJqdGkiOiJEc2VVeFE2ZENoMTBHWGRxR0o1bFp1cy1SaVkiLCJ1c2VyVXVpZCI6ImU4Y2Q4MzNkLWU2MTktNGE4NC1hY2YwLWY1ZWNjMWM2YTY1YiIsImVtYWlsIjoiYWhtZXIuaGFzaG1pQG1hZXJzay5jb20iLCJhY2Nlc3NUeXBlIjoiZXh0ZXJuYWwifQ.CtZUM03UP2HhTDEO1Hu8WrnXlcT3ddaysShmQBNvdfuDYZ3r0JaBzwRTT-PGpeC06Gjm5Ye_9UU-hpXYdpfoZB0OJkEau_t68xXKeLdZntANuqXDIToINXIxS5nkK_GPUXAy5E3HWwhrrsf5sRrnFg8RRdysqDPkw9rMTFvaD96cVracfJ-bg2F5b9Jv4flWePk4kH2UM4OY51iaDs6oP-W9Mqw_4HCuceuoxBpA17Cm9eQ0ptWHokmI1y1wvVTHriKESO1NOlhOZvZwVc9G_8eQVM9X4VtBNAB6kEto6Xk5Lnk0FSsX2Lswa17ivTeMGYscurTFfoawPiEWkJ28xQ",
+    "idToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiV1hFakxmaGV3ZXdaX0ZQdktqR1FRdyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMDIzIiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NTAsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NTEsImlhdCI6MTc1MjA0MzY1MSwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoiMXFnajdVYk9yZ1RmQWZHVzZiM2MiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6ImJCeWV1VEtGVkxDMHViMFIxUGY4QWciLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.TCVqAHVME7O4z0D9oYvt25Aagm5nrKN4n-iXEHWyct1zXl0lyJ7UiHFgcVU4oXOfKLZk7MzZHAkcJAM6ZnGkFpmbt7QAo-27kZrOXsGW-rDICXQ52Fok2ShXo95_BpHBjQCI9pTpWaMI0X3dEhe9GSo6GCBXfdTZONRmiam0Skv98Z95Ed8xOmX8yC45s3c4Dgka0JPQN6P_hR8WTkqLhtGij4DBke4hoTxFLKk-hAAotyOv3xHeMVk2e7htIYNT8TFarAwxMakORwfd89T-DLMNDP9rWE2Kte8CMKS1fbwlGL4wPR-idqXiqPbfq_Z08BbuI-42pFKtp-VcI-STNjn_klD5zszXwby-s-RaYXU0fnJYtu83Dneb2Mo_Qy_L_EznrlIfgL3iMBQXXHXWAzE1Wjy_wjuTJ1JNnCr2HoUQXQ9BuGJIebUjrZRhQu1Jyyky4rzY2yBuzOdVYCa0xA6mX4U8IwWDaqsOEGpBfR3neyuaJLDoPADwpczO6BCp",
+    "refreshToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMDIyIiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoicmVmcmVzaF90b2tlbiIsInRva2VuX3R5cGUiOiJCZWFyZXIiLCJhdXRoR3JhbnRJZCI6Imp2WERlRnZBVndZUExOVm9nakp2clJVMEpnQSIsImF1ZCI6Im1jYTAwMSIsImFjciI6IjAiLCJuYmYiOjE3NTIwNDM2NTEsImdyYW50X3R5cGUiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiZW1haWwiXSwiYXV0aF90aW1lIjoxNzUyMDQzNjUwLCJyZWFsbSI6Ii9tYXUiLCJleHAiOjE3NTk5MzM2NTEsImlhdCI6MTc1MjA0MzY1MSwiZXhwaXJlc19pbiI6Nzg5MDAwMCwianRpIjoiUURpOV9ZcFdJcWZMTUR4dDNQTlZZN241eEUwIn0.F2sVr9OXDkJPPY4_1_w279HEXZoI-ABl_BbxdOkYZwXgI6ExepM-0oFjyZCEHn5BVfqiRihee8t8Mdnk8DJAPFI8VB7SxAs7bQMxHzfz1KYJ0zqAjmBOxWPLhvLNJXqbLlxHKCUo10Eoz_pP72ynEpb-wo94u68m4gy8mFvzoYibtPwh2MXBZq2E4_iQBuMVRtUaUjF28Fldy0m_gnpDwVmLczenVzFCO8oqRzIwBj5MixZejUBrUAfdAfjfIXmuHUUnIpL77Ax93yVSbuL1IaWcUlh08KWxdnLDTgZlipCAhtRMhJnURUcQSYUWB9eU7UMABln-JvtJ-FM9y1AfLQ",
+    "exp": "2025-07-09T08:47:31.000Z",
+    "personId": null,
+    "carrierOffice": null
+}
+  Given I have a authoriztionId and container number "MOBILE101"                           # com.maersk.definations.vasUpsellDefinations.setAuthorizationShipmentNumber_DnDFreeTimeAPI(java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/vas-experience/dnd/freetime/MOBILE101
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiV1hFakxmaGV3ZXdaX0ZQdktqR1FRdyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMDIzIiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NTAsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NTEsImlhdCI6MTc1MjA0MzY1MSwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoiMXFnajdVYk9yZ1RmQWZHVzZiM2MiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6ImJCeWV1VEtGVkxDMHViMFIxUGY4QWciLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.TCVqAHVME7O4z0D9oYvt25Aagm5nrKN4n-iXEHWyct1zXl0lyJ7UiHFgcVU4oXOfKLZk7MzZHAkcJAM6ZnGkFpmbt7QAo-27kZrOXsGW-rDICXQ52Fok2ShXo95_BpHBjQCI9pTpWaMI0X3dEhe9GSo6GCBXfdTZONRmiam0Skv98Z95Ed8xOmX8yC45s3c4Dgka0JPQN6P_hR8WTkqLhtGij4DBke4hoTxFLKk-hAAotyOv3xHeMVk2e7htIYNT8TFarAwxMakORwfd89T-DLMNDP9rWE2Kte8CMKS1fbwlGL4wPR-idqXiqPbfq_Z08BbuI-42pFKtp-VcI-STNjn_klD5zszXwby-s-RaYXU0fnJYtu83Dneb2Mo_Qy_L_EznrlIfgL3iMBQXXHXWAzE1Wjy_wjuTJ1JNnCr2HoUQXQ9BuGJIebUjrZRhQu1Jyyky4rzY2yBuzOdVYCa0xA6mX4U8IwWDaqsOEGpBfR3neyuaJLDoPADwpczO6BCp
+				Consumer-Key=ppsnjcf8DSKA95DBxGHTyBfv1ugamE7X
+				Request-Source=Maersk Mobile App
+				Charge-Source=CXED
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "billOfLadingId": "MOBILE101",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "containerDetails": [
+        
+    ],
+    "customerCode": "10000007951",
+    "requestedDateTime": "2025-08-08T00:00:00.000Z",
+    "motherShipmentId": "MOBILE101",
+    "chargesFromDate": null,
+    "chargesToDate": null
+}
+{
+    "tradingName": "",
+    "correlationId": "19b9a962-8d6f-422e-80fc-e5d4eabed381",
+    "billOfLadingId": "MOBILE101",
+    "motherShipmentId": "MOBILE101",
+    "customerCode": "10000007951",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "currencyISOCode": "EUR",
+    "chargeTypeDisplayName": "Demurrage",
+    "isDndAllowed": false,
+    "reason": [
+        "FREETIME_NOT_IN_DATE_RANGE"
+    ],
+    "purchaseDays": "0",
+    "ssibPurchaseDays": 0,
+    "siPurchaseDays": 0,
+    "importsPurchaseDays": 0,
+    "containerCharges": [
+        {
+            "containerId": "GVCU4009810",
+            "freePeriod": {
+                "freeDays": 50,
+                "freeTimeUnit": "DAYS",
+                "lastFreeDate": "2025-07-04",
+                "originalLastFreeDate": "2025-07-04",
+                "estimatedStartDate": "2025-05-15"
+            },
+            "chargeablePeriod": {
+                "startDate": "2025-07-05",
+                "endDate": "2025-09-16",
+                "chargesByDates": [
+                    {
+                        "date": "2025-07-09",
+                        "amount": 355.00,
+                        "chargeableDays": 5,
+                        "tiers": [
+                            {
+                                "rate": 65.00,
+                                "numberOfDays": 4
+                            },
+                            {
+                                "rate": 95.00,
+                                "numberOfDays": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
+Response Body: {
+    "tradingName": "",
+    "correlationId": "19b9a962-8d6f-422e-80fc-e5d4eabed381",
+    "billOfLadingId": "MOBILE101",
+    "motherShipmentId": "MOBILE101",
+    "customerCode": "10000007951",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "currencyISOCode": "EUR",
+    "chargeTypeDisplayName": "Demurrage",
+    "isDndAllowed": false,
+    "reason": [
+        "FREETIME_NOT_IN_DATE_RANGE"
+    ],
+    "purchaseDays": "0",
+    "ssibPurchaseDays": 0,
+    "siPurchaseDays": 0,
+    "importsPurchaseDays": 0,
+    "containerCharges": [
+        {
+            "containerId": "GVCU4009810",
+            "freePeriod": {
+                "freeDays": 50,
+                "freeTimeUnit": "DAYS",
+                "lastFreeDate": "2025-07-04",
+                "originalLastFreeDate": "2025-07-04",
+                "estimatedStartDate": "2025-05-15"
+            },
+            "chargeablePeriod": {
+                "startDate": "2025-07-05",
+                "endDate": "2025-09-16",
+                "chargesByDates": [
+                    {
+                        "date": "2025-07-09",
+                        "amount": 355.00,
+                        "chargeableDays": 5,
+                        "tiers": [
+                            {
+                                "rate": 65.00,
+                                "numberOfDays": 4
+                            },
+                            {
+                                "rate": 95.00,
+                                "numberOfDays": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
+  When I send an POST request to DND free time API with container number                   # com.maersk.definations.vasUpsellDefinations.sendPostRequest_DnDFreeTimeAPI()
+*************************************************
+Response Status: io.restassured.internal.ValidatableResponseImpl@156ff70f
+*************************************************
+  Then the response status code of DND free time API should be "200"                       # com.maersk.definations.vasUpsellDefinations.verifyStatusCode_DnDFreeTimeAPI(java.lang.String)
+Response Body: {
+    "tradingName": "",
+    "correlationId": "19b9a962-8d6f-422e-80fc-e5d4eabed381",
+    "billOfLadingId": "MOBILE101",
+    "motherShipmentId": "MOBILE101",
+    "customerCode": "10000007951",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "currencyISOCode": "EUR",
+    "chargeTypeDisplayName": "Demurrage",
+    "isDndAllowed": false,
+    "reason": [
+        "FREETIME_NOT_IN_DATE_RANGE"
+    ],
+    "purchaseDays": "0",
+    "ssibPurchaseDays": 0,
+    "siPurchaseDays": 0,
+    "importsPurchaseDays": 0,
+    "containerCharges": [
+        {
+            "containerId": "GVCU4009810",
+            "freePeriod": {
+                "freeDays": 50,
+                "freeTimeUnit": "DAYS",
+                "lastFreeDate": "2025-07-04",
+                "originalLastFreeDate": "2025-07-04",
+                "estimatedStartDate": "2025-05-15"
+            },
+            "chargeablePeriod": {
+                "startDate": "2025-07-05",
+                "endDate": "2025-09-16",
+                "chargesByDates": [
+                    {
+                        "date": "2025-07-09",
+                        "amount": 355.00,
+                        "chargeableDays": 5,
+                        "tiers": [
+                            {
+                                "rate": 65.00,
+                                "numberOfDays": 4
+                            },
+                            {
+                                "rate": 95.00,
+                                "numberOfDays": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
+  And the response should indicate successful creation for the given container number      # com.maersk.definations.vasUpsellDefinations.verifyResponse_DnDFreeTimeAPI()
+]]></system-out>
+    <system-err><![CDATA[┌──────────────────────────────────────────────────────────────────────────┐
+│ View your Cucumber Report at:                                            │
+│ https://reports.cucumber.io/reports/e7e83a12-9611-4351-9a40-a701268e3fa9 │
+│                                                                          │
+│ This report will self-destruct in 24h.                                   │
+└──────────────────────────────────────────────────────────────────────────┘]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Submit free time information with valid authorization and invalid container number&quot;, &quot;Optional[Free time API]&quot;](2)" classname="scriptRunner.vasUpselAPIRunner" time="2.44">
+    <system-out><![CDATA[
+Scenario: Submit free time information with valid authorization and invalid container number # src/test/resources/features/vasUpsell.feature:15
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob_user_2",
+    "password": "Maersk@6"
+}
+{
+    "result": "SUCCESS",
+    "tokenId": "e1KlDvAtrcClXJytnp51O2maxWY.*AAJTSQACMDIAAlNLABw1RGExZmxONzdpYlpocmZCdzZjOVp4azgvSWs9AAR0eXBlAANDVFMAAlMxAAIwNA..*",
+    "authId": null,
+    "multifactor": false
+}
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/tokens/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				idToken=e1KlDvAtrcClXJytnp51O2maxWY.*AAJTSQACMDIAAlNLABw1RGExZmxONzdpYlpocmZCdzZjOVp4azgvSWs9AAR0eXBlAANDVFMAAlMxAAIwNA..*
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "customerCode": "10000007951"
+}
+{
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMDQ0Iiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiYWNjZXNzX3Rva2VuIiwidG9rZW5fdHlwZSI6IkJlYXJlciIsImF1dGhHcmFudElkIjoiUXB4Wlgyb1JFaWFpZzVuRmJuWDIwS2dONkxrIiwibm9uY2UiOiJ4U0hLWk5JTkt5ZWxYSGgwM29ZWiIsImF1ZCI6Im1jYTAwMSIsIm5iZiI6MTc1MjA0MzY1NSwiZ3JhbnRfdHlwZSI6ImF1dGhvcml6YXRpb25fY29kZSIsInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCJdLCJhdXRoX3RpbWUiOjE3NTIwNDM2NTUsInJlYWxtIjoiL21hdSIsImV4cCI6MTc1MjA1MDg1NSwiaWF0IjoxNzUyMDQzNjU1LCJleHBpcmVzX2luIjo3MjAwLCJqdGkiOiI2OVpLdmpPOG1vWkJibTdZUWk5NGkwbE1VR1EiLCJ1c2VyVXVpZCI6ImU4Y2Q4MzNkLWU2MTktNGE4NC1hY2YwLWY1ZWNjMWM2YTY1YiIsImVtYWlsIjoiYWhtZXIuaGFzaG1pQG1hZXJzay5jb20iLCJhY2Nlc3NUeXBlIjoiZXh0ZXJuYWwifQ.hg2_M-15IxFl42TaDpre_A-AcIytXl1InoxkDJORAq2IhvyFToqXm1skWdHWPEWmpdwns1EUBqI5uQtlA2w7ml_zc_pMHIj7wi1Bh207JRE2e8Z7bHaczezyRp2PdC1d8IVqQd0ZCQt76KnS75YycxYQnlVV5qd4M0NncDgHsn0av77e4a3InKIPnzSCoeNJWsepDEHp4_PKf5mp-d59tz_yayCQz0TTXacxKl3mxJqcR8nINoWS_G5FEql5FctMkSDr3baVLUO9hKjFCSB4g2yT41scPxFk19r7cV8RNSpLzzwA1O0VMDg98EIcLgeUNRNHdgMUg1ZpkOiKcIwKAA",
+    "idToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoicEhZODF5c19jZEJfdDM1MF9XanMyUSIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMDQ2Iiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NTUsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NTUsImlhdCI6MTc1MjA0MzY1NSwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoieFNIS1pOSU5LeWVsWEhoMDNvWVoiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6Ik5vT2UtdjduWm96R2taMHNpV3cxc0EiLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.Py2dQyY1HYTLfXdNGsJCNXMRI1n17GAXeFailltFI7VlIDkWRE9y3xYsrmleo1BADqpegFTEplphZVvDa6WuEAQodGml56wQi7pSiaOp4hnUDn6vWgG50Njc4ixBNw-tY7-dYZMJq1Ki1Rnz2bDBrWGzLrIWdEBpI2ZErXNHd439yWD8POug4dUedBLJKnfjD5lvM1NUql-Sb6BqExzJg5MRJB231TxNgOXzDSyVorjtEBBtU3tQ_3BbOoS-RNd_YKwzsFf0fcwcdd_VINTHcBDrC6VXB3mKSePs1C73Qsi8tSnfekHCWsYXzZamiFD5GRKN8e_aBfp-7lcR2KDsTgMagQ4FG1DdaWJn8GMKja_UrE3AmhRModwfCCHzTlmUPHwzevgz9PS4vfZygdJUeqPqd9G-9IzLAOCv4XY30qvIPYSD8KGuLcJJxBLqEf3Pdh6rRIXHj8UuAXMMN7SRTqtYvd5a8H1ceqv1DpuYkxAvRbD2oV_4VZcdQIJBRU_T",
+    "refreshToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMDQ1Iiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoicmVmcmVzaF90b2tlbiIsInRva2VuX3R5cGUiOiJCZWFyZXIiLCJhdXRoR3JhbnRJZCI6IlFweFpYMm9SRWlhaWc1bkZiblgyMEtnTjZMayIsImF1ZCI6Im1jYTAwMSIsImFjciI6IjAiLCJuYmYiOjE3NTIwNDM2NTUsImdyYW50X3R5cGUiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiZW1haWwiXSwiYXV0aF90aW1lIjoxNzUyMDQzNjU1LCJyZWFsbSI6Ii9tYXUiLCJleHAiOjE3NTk5MzM2NTUsImlhdCI6MTc1MjA0MzY1NSwiZXhwaXJlc19pbiI6Nzg5MDAwMCwianRpIjoiSkdpOWJrWGhBdlRTUG5SWWF3dTlUZXhpREtvIn0.iCrjVzOv1QtfAyDLvh1ld8qSYGzowBCmsJb45O_dpMMN6tmEM1LG7U6fYICtu89O07RQI67_FC__rwiCXwq2NoZc4TNAE5zUnBTRMQLQhH6UTQvYVj8i56B1gRAJI-P1iPG7PGlGRdD4AAK72v2D2fG4qlOfgcrVnbBSzpP47VzZeDa3Qm8k5MRFRvpkxxXPYdr_9N7wMBZ_xpLXvameGomqMhxNTF7i1qnVVKFpzpQkT6fgD79SZBtHKbc2rJkeruCOZ78N_Zu1v92b6Slu8hZw_NcBr-eehbe9zHwAGlf8cxv4Hj4N5XUpkGM-72FdYi-nmfWvZ1_u5xZbTPU3NQ",
+    "exp": "2025-07-09T08:47:35.000Z",
+    "personId": null,
+    "carrierOffice": null
+}
+  Given I have a authoriztionId and container number "INVALID123"                            # com.maersk.definations.vasUpsellDefinations.setAuthorizationShipmentNumber_DnDFreeTimeAPI(java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/vas-experience/dnd/freetime/INVALID123
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoicEhZODF5c19jZEJfdDM1MF9XanMyUSIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMDQ2Iiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NTUsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NTUsImlhdCI6MTc1MjA0MzY1NSwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoieFNIS1pOSU5LeWVsWEhoMDNvWVoiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6Ik5vT2UtdjduWm96R2taMHNpV3cxc0EiLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.Py2dQyY1HYTLfXdNGsJCNXMRI1n17GAXeFailltFI7VlIDkWRE9y3xYsrmleo1BADqpegFTEplphZVvDa6WuEAQodGml56wQi7pSiaOp4hnUDn6vWgG50Njc4ixBNw-tY7-dYZMJq1Ki1Rnz2bDBrWGzLrIWdEBpI2ZErXNHd439yWD8POug4dUedBLJKnfjD5lvM1NUql-Sb6BqExzJg5MRJB231TxNgOXzDSyVorjtEBBtU3tQ_3BbOoS-RNd_YKwzsFf0fcwcdd_VINTHcBDrC6VXB3mKSePs1C73Qsi8tSnfekHCWsYXzZamiFD5GRKN8e_aBfp-7lcR2KDsTgMagQ4FG1DdaWJn8GMKja_UrE3AmhRModwfCCHzTlmUPHwzevgz9PS4vfZygdJUeqPqd9G-9IzLAOCv4XY30qvIPYSD8KGuLcJJxBLqEf3Pdh6rRIXHj8UuAXMMN7SRTqtYvd5a8H1ceqv1DpuYkxAvRbD2oV_4VZcdQIJBRU_T
+				Consumer-Key=ppsnjcf8DSKA95DBxGHTyBfv1ugamE7X
+				Request-Source=Maersk Mobile App
+				Charge-Source=CXED
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "billOfLadingId": "INVALID123",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "containerDetails": [
+        
+    ],
+    "customerCode": "10000007951",
+    "requestedDateTime": "2025-08-08T00:00:00.000Z",
+    "motherShipmentId": "INVALID123",
+    "chargesFromDate": null,
+    "chargesToDate": null
+}
+{
+    "correlationId": "60d53ca5-7037-45e1-a060-266ad0a68b5c",
+    "billOfLadingId": "INVALID123",
+    "motherShipmentId": "INVALID123",
+    "customerCode": "10000007951",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "chargeTypeDisplayName": "Demurrage",
+    "isDndAllowed": false,
+    "reason": [
+        "TECHNICAL_ERROR"
+    ]
+}
+Response Body: {
+    "correlationId": "60d53ca5-7037-45e1-a060-266ad0a68b5c",
+    "billOfLadingId": "INVALID123",
+    "motherShipmentId": "INVALID123",
+    "customerCode": "10000007951",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "chargeTypeDisplayName": "Demurrage",
+    "isDndAllowed": false,
+    "reason": [
+        "TECHNICAL_ERROR"
+    ]
+}
+  When I send an POST request to DND free time API with container number                     # com.maersk.definations.vasUpsellDefinations.sendPostRequest_DnDFreeTimeAPI()
+*************************************************
+Response Status: io.restassured.internal.ValidatableResponseImpl@733fa95c
+*************************************************
+  Then the response status code of DND free time API should be "400"                         # com.maersk.definations.vasUpsellDefinations.verifyStatusCode_DnDFreeTimeAPI(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Submit free time information with invalid authorization and container number&quot;, &quot;Optional[Free time API]&quot;](3)" classname="scriptRunner.vasUpselAPIRunner" time="0.347">
+    <system-out><![CDATA[
+Scenario: Submit free time information with invalid authorization and container number # src/test/resources/features/vasUpsell.feature:20
+  Given I have a invalid authoriztionId and container number "MOBILE101"               # com.maersk.definations.vasUpsellDefinations.setInvalidAuthorizationShipmentNumber_DnDFreeTimeAPI(java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/vas-experience/dnd/freetime/MOBILE101
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiRWpHVDhscWxpd1FtdVV2TVBxR2FGdyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImI1ZjIxYmU2LTczMzUtNGY3Mi05ZDY5LWU4NDM5YzY3YWFjMy0xOTMxNDgyIiwicm9sZXMiOlsiRG9jdW1lbnRhdGlvbiIsIlBheW1lbnRzIiwiQ29udHJhY3RSYXRlIiwiQm9va2luZyIsIkJhc2ljQ3VzdG9tZXIiLCJXQk9MQXBwcm92ZXIiLCJJbnZvaWNlcyJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NDY2MjM1MzgsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NDY2MzA3NDQsImlhdCI6MTc0NjYyMzU0NCwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoiaDlwemVLVVJYUUtvdTB6aE9IN0UiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6ImttSERTWTR0S1RLVXp3WmlFMXRkRlEiLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.biWvPgWsYGYBrfHcz_6eL14lLYMjxGRxNZLtbGwKXjoRvl11oyevy0vA6DgquMJndJydogn_3BoFCjnsje7UgJk-EieBGtxZIT4Li5p9rmDgSwLmW8GaGQuHn6Y56Iw-JOqm5QssFXkKyBrboUEYhywFqKgWFaAvhx_uVz6aRxSFEYA6RjlcOcE1nfyTpp2koPRm27s4Pqi2iQt0fTZhZoLkGa71rXmqQYIKZwVn7MRUoD2iVgwbM43kSsF6ciRlVq9mcGhPhap0V-hXzJVSONM7cqFoJNwU-6JffN2_rmhS-IC15LJrX3Y9au8Ob2-ntsB57hB_HwixCUsMgkgWKyFd_a-_DO97nWVFXY-3x5hBCuR8TnhB0AGd3yC7nLSIglm-mcZ0WvN9enulalaQx2Hfzyk3LBfE5wmzRZYeOHcBNxdCOgLtvIaFHHxX63S65DTiAD6MPkw9xlawZ0OyODD53BwqTqKkdK7grtr
+				Consumer-Key=ppsnjcf8DSKA95DBxGHTyBfv1ugamE7X
+				Request-Source=Maersk Mobile App
+				Charge-Source=CXED
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "billOfLadingId": "MOBILE101",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "containerDetails": [
+        
+    ],
+    "customerCode": "10000007951",
+    "requestedDateTime": "2025-08-08T00:00:00.000Z",
+    "motherShipmentId": "MOBILE101",
+    "chargesFromDate": null,
+    "chargesToDate": null
+}
+{
+    "fault": {
+        "faultstring": "Invalid token: policy(Verify-JWT-1)",
+        "detail": {
+            "errorcode": "steps.jwt.InvalidToken"
+        }
+    }
+}
+Response Body: {
+    "fault": {
+        "faultstring": "Invalid token: policy(Verify-JWT-1)",
+        "detail": {
+            "errorcode": "steps.jwt.InvalidToken"
+        }
+    }
+}
+  When I send an POST request to DND free time API with container number               # com.maersk.definations.vasUpsellDefinations.sendPostRequest_DnDFreeTimeAPI()
+*************************************************
+Response Status: io.restassured.internal.ValidatableResponseImpl@1aa59698
+*************************************************
+  Then the response status code of DND free time API should be "401"                   # com.maersk.definations.vasUpsellDefinations.verifyStatusCode_DnDFreeTimeAPI(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Submit free time information with valid authorization and valid container number for multiple data&quot;, &quot;Optional[Free time API]&quot;](4)" classname="scriptRunner.vasUpselAPIRunner" time="4.985">
+    <system-out><![CDATA[
+Scenario: Submit free time information with valid authorization and valid container number for multiple data # src/test/resources/features/vasUpsell.feature:32
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob_user_2",
+    "password": "Maersk@6"
+}
+{
+    "result": "SUCCESS",
+    "tokenId": "Fo97Db0ZjEumMpCGLKaHQ85DNkY.*AAJTSQACMDIAAlNLABxubnNwR3JEOE1ZWFhDQTZNL1kzMTYzYWtVR0k9AAR0eXBlAANDVFMAAlMxAAIwNA..*",
+    "authId": null,
+    "multifactor": false
+}
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/tokens/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				idToken=Fo97Db0ZjEumMpCGLKaHQ85DNkY.*AAJTSQACMDIAAlNLABxubnNwR3JEOE1ZWFhDQTZNL1kzMTYzYWtVR0k9AAR0eXBlAANDVFMAAlMxAAIwNA..*
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "customerCode": "10000007951"
+}
+{
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMDkzIiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiYWNjZXNzX3Rva2VuIiwidG9rZW5fdHlwZSI6IkJlYXJlciIsImF1dGhHcmFudElkIjoiQkJURWVEMWpkVDBra2RfRks4Q3I3S0JGZUQwIiwibm9uY2UiOiJoaGdiblpBRzdwSGdBaUdhQTV1MyIsImF1ZCI6Im1jYTAwMSIsIm5iZiI6MTc1MjA0MzY1OSwiZ3JhbnRfdHlwZSI6ImF1dGhvcml6YXRpb25fY29kZSIsInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCJdLCJhdXRoX3RpbWUiOjE3NTIwNDM2NTgsInJlYWxtIjoiL21hdSIsImV4cCI6MTc1MjA1MDg1OSwiaWF0IjoxNzUyMDQzNjU5LCJleHBpcmVzX2luIjo3MjAwLCJqdGkiOiJFN0VOUEZjOVJxZnhOalBEa0pvQUI0Mkd4YlUiLCJ1c2VyVXVpZCI6ImU4Y2Q4MzNkLWU2MTktNGE4NC1hY2YwLWY1ZWNjMWM2YTY1YiIsImVtYWlsIjoiYWhtZXIuaGFzaG1pQG1hZXJzay5jb20iLCJhY2Nlc3NUeXBlIjoiZXh0ZXJuYWwifQ.U0um23zDsCuaw3PRSn7UnyVlqtDYKwHC2ImmsIY3YP22pSylH50O20YLcfwwcDSOo33n1GNZj8s0erGgFpeA0P632JC1mJS34Q279OJLrHMZtYjECTWeOdgk7C0LVJyBNxy1l6DaD8FRiLaUtrnpbghKr-Z0oSieVJ39rOPB9jWKsjOrBMlSmRzGLt40E1BOsjTEc0457wyDMOUGTO_ewu7H2w5fuba4E2-fUhQLb56Swmk1vQHxPve0P4zKa-rCeeNK2M9F4vEXxLnL066rChfNn3mXm-QR996Wv9G5kqPc-_ir2LY9P0-f0W4tYd4BlFWUek9Wj7aHXyWPnKcxKQ",
+    "idToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiRFFfOENNTndxOC1SUXo4VnQwRVZWUSIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMDk1Iiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NTgsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NTksImlhdCI6MTc1MjA0MzY1OSwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoiaGhnYm5aQUc3cEhnQWlHYUE1dTMiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6InRCQTdxODI1blU5Mm02UUU5WVloM3ciLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.j7R6rWHzmhDci7g14G29fGArOfkU3PmVHO9PC5rJwV4TXoay3vWR3UZGNbLhMsZ3Wjv0aIV4mTx4oIMZJjOouCMWWO2mgaYPAodq59l6L2p4Oer7EhA2PbKSUCizzhs_G-g4P4oq5U7UumbDepzVkV0yySx0p0BhL_5q7Kv8d6EhtO79d23aK_MatoXxAHRKUDe1B5yGCbkzXi-n-wlMzJrITAsNKyblaQiKYoLWI2M4E8Pclo86jtQZlOm9WyGHk-oMq-6QyhzKoQGW5MmsWs6OoH-bzUK_8eW45s9nihD1nHggAY8sTk4ur61xrHK19rLdR1FZY6bqy4P_pUdVd6GYHYTiYXeRXLw_7u5mJD_H7_DfELhB-fEcV2AoJeunaTn9ILFRsW5UVpf7jaCxMLrkjPteGi876mNlYCbwYhaua5OyjYPKxTHISaem6b7ob3KrAAsS4fBYMlUDdlGX3sXxJ3joIR0-AFaD_Q5vmhdnuGDWaEVngu3t-4H8h0ji",
+    "refreshToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMDk0Iiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoicmVmcmVzaF90b2tlbiIsInRva2VuX3R5cGUiOiJCZWFyZXIiLCJhdXRoR3JhbnRJZCI6IkJCVEVlRDFqZFQwa2tkX0ZLOENyN0tCRmVEMCIsImF1ZCI6Im1jYTAwMSIsImFjciI6IjAiLCJuYmYiOjE3NTIwNDM2NTksImdyYW50X3R5cGUiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiZW1haWwiXSwiYXV0aF90aW1lIjoxNzUyMDQzNjU4LCJyZWFsbSI6Ii9tYXUiLCJleHAiOjE3NTk5MzM2NTksImlhdCI6MTc1MjA0MzY1OSwiZXhwaXJlc19pbiI6Nzg5MDAwMCwianRpIjoiMFU2UjBidTRLZFlzSk1ZZ3phQkwzeFRid1A4In0.QhcCs-7Lv9dbHiWQp6JgaxZjPS1m9bGrV5RjfY1QNUBFC7XFdZuu0p5BZdn4xZMNBS1AnR2iOxtHPNa5YdK4ziaBKOn2_nOvrFtoCrPkllwrat8IQIf_iL4wFcHedaY7vQt3Y_P9v_POpth0KzKSv7XtlwbRM61RfVqXneWk-RDsMIROtwdyZY07e5evXTE2O8Jr1WM_LsW1KDiDf5NL_Y4lxWuoXu4h7eJAZehfTzv4JJo7tiPI4YscInC2dwYYgR1q9w651_6Dx7kwuwuT12-e9Z8Yj4hOV1r0EqYhnb46ME4BBNHQ6ELY56UYr_-Ewux75Tp4kUjefyQO0edkYA",
+    "exp": "2025-07-09T08:47:39.000Z",
+    "personId": null,
+    "carrierOffice": null
+}
+  Given I have a authoriztionId and container number "MOBILE101"                                             # com.maersk.definations.vasUpsellDefinations.setAuthorizationShipmentNumber_DnDFreeTimeAPI(java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/vas-experience/dnd/freetime/MOBILE101
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiRFFfOENNTndxOC1SUXo4VnQwRVZWUSIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMDk1Iiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NTgsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NTksImlhdCI6MTc1MjA0MzY1OSwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoiaGhnYm5aQUc3cEhnQWlHYUE1dTMiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6InRCQTdxODI1blU5Mm02UUU5WVloM3ciLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.j7R6rWHzmhDci7g14G29fGArOfkU3PmVHO9PC5rJwV4TXoay3vWR3UZGNbLhMsZ3Wjv0aIV4mTx4oIMZJjOouCMWWO2mgaYPAodq59l6L2p4Oer7EhA2PbKSUCizzhs_G-g4P4oq5U7UumbDepzVkV0yySx0p0BhL_5q7Kv8d6EhtO79d23aK_MatoXxAHRKUDe1B5yGCbkzXi-n-wlMzJrITAsNKyblaQiKYoLWI2M4E8Pclo86jtQZlOm9WyGHk-oMq-6QyhzKoQGW5MmsWs6OoH-bzUK_8eW45s9nihD1nHggAY8sTk4ur61xrHK19rLdR1FZY6bqy4P_pUdVd6GYHYTiYXeRXLw_7u5mJD_H7_DfELhB-fEcV2AoJeunaTn9ILFRsW5UVpf7jaCxMLrkjPteGi876mNlYCbwYhaua5OyjYPKxTHISaem6b7ob3KrAAsS4fBYMlUDdlGX3sXxJ3joIR0-AFaD_Q5vmhdnuGDWaEVngu3t-4H8h0ji
+				Consumer-Key=ppsnjcf8DSKA95DBxGHTyBfv1ugamE7X
+				Request-Source=Maersk Mobile App
+				Charge-Source=CXED
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "billOfLadingId": "MOBILE101",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "containerDetails": [
+        
+    ],
+    "customerCode": "10000007951",
+    "requestedDateTime": "2025-08-08T00:00:00.000Z",
+    "motherShipmentId": "MOBILE101",
+    "chargesFromDate": null,
+    "chargesToDate": null
+}
+{
+    "tradingName": "",
+    "correlationId": "9975e101-ffa1-47be-9eec-5a553a99b0cd",
+    "billOfLadingId": "MOBILE101",
+    "motherShipmentId": "MOBILE101",
+    "customerCode": "10000007951",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "currencyISOCode": "EUR",
+    "chargeTypeDisplayName": "Demurrage",
+    "isDndAllowed": false,
+    "reason": [
+        "FREETIME_NOT_IN_DATE_RANGE"
+    ],
+    "purchaseDays": "0",
+    "ssibPurchaseDays": 0,
+    "siPurchaseDays": 0,
+    "importsPurchaseDays": 0,
+    "containerCharges": [
+        {
+            "containerId": "GVCU4009810",
+            "freePeriod": {
+                "freeDays": 50,
+                "freeTimeUnit": "DAYS",
+                "lastFreeDate": "2025-07-04",
+                "originalLastFreeDate": "2025-07-04",
+                "estimatedStartDate": "2025-05-15"
+            },
+            "chargeablePeriod": {
+                "startDate": "2025-07-05",
+                "endDate": "2025-09-16",
+                "chargesByDates": [
+                    {
+                        "date": "2025-07-09",
+                        "amount": 355.00,
+                        "chargeableDays": 5,
+                        "tiers": [
+                            {
+                                "rate": 65.00,
+                                "numberOfDays": 4
+                            },
+                            {
+                                "rate": 95.00,
+                                "numberOfDays": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
+Response Body: {
+    "tradingName": "",
+    "correlationId": "9975e101-ffa1-47be-9eec-5a553a99b0cd",
+    "billOfLadingId": "MOBILE101",
+    "motherShipmentId": "MOBILE101",
+    "customerCode": "10000007951",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "currencyISOCode": "EUR",
+    "chargeTypeDisplayName": "Demurrage",
+    "isDndAllowed": false,
+    "reason": [
+        "FREETIME_NOT_IN_DATE_RANGE"
+    ],
+    "purchaseDays": "0",
+    "ssibPurchaseDays": 0,
+    "siPurchaseDays": 0,
+    "importsPurchaseDays": 0,
+    "containerCharges": [
+        {
+            "containerId": "GVCU4009810",
+            "freePeriod": {
+                "freeDays": 50,
+                "freeTimeUnit": "DAYS",
+                "lastFreeDate": "2025-07-04",
+                "originalLastFreeDate": "2025-07-04",
+                "estimatedStartDate": "2025-05-15"
+            },
+            "chargeablePeriod": {
+                "startDate": "2025-07-05",
+                "endDate": "2025-09-16",
+                "chargesByDates": [
+                    {
+                        "date": "2025-07-09",
+                        "amount": 355.00,
+                        "chargeableDays": 5,
+                        "tiers": [
+                            {
+                                "rate": 65.00,
+                                "numberOfDays": 4
+                            },
+                            {
+                                "rate": 95.00,
+                                "numberOfDays": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
+  When I send an POST request to DND free time API with container number                                     # com.maersk.definations.vasUpsellDefinations.sendPostRequest_DnDFreeTimeAPI()
+*************************************************
+Response Status: io.restassured.internal.ValidatableResponseImpl@6802d023
+*************************************************
+  Then the response status code of DND free time API should be "200"                                         # com.maersk.definations.vasUpsellDefinations.verifyStatusCode_DnDFreeTimeAPI(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Submit free time information with valid authorization and valid container number for multiple data&quot;, &quot;Optional[Free time API]&quot;](5)" classname="scriptRunner.vasUpselAPIRunner" time="3.065">
+    <system-out><![CDATA[
+Scenario: Submit free time information with valid authorization and valid container number for multiple data # src/test/resources/features/vasUpsell.feature:33
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob_user_2",
+    "password": "Maersk@6"
+}
+{
+    "result": "SUCCESS",
+    "tokenId": "zLWYLcD2_VuNy_1NnBjJhstRcfA.*AAJTSQACMDIAAlNLABxXRG03b1BFWncwcmcvaGJPSVI2ZjJSdVAvaEU9AAR0eXBlAANDVFMAAlMxAAIwNA..*",
+    "authId": null,
+    "multifactor": false
+}
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/tokens/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				idToken=zLWYLcD2_VuNy_1NnBjJhstRcfA.*AAJTSQACMDIAAlNLABxXRG03b1BFWncwcmcvaGJPSVI2ZjJSdVAvaEU9AAR0eXBlAANDVFMAAlMxAAIwNA..*
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "customerCode": "10000007951"
+}
+{
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMTI3Iiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiYWNjZXNzX3Rva2VuIiwidG9rZW5fdHlwZSI6IkJlYXJlciIsImF1dGhHcmFudElkIjoiQnFBUnRsUXBNYmpWTENseFMzdjV2ckVKcU5BIiwibm9uY2UiOiJvam9ZNWM1Y2RNQkl5U1pzcnpHRiIsImF1ZCI6Im1jYTAwMSIsIm5iZiI6MTc1MjA0MzY2NCwiZ3JhbnRfdHlwZSI6ImF1dGhvcml6YXRpb25fY29kZSIsInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCJdLCJhdXRoX3RpbWUiOjE3NTIwNDM2NjMsInJlYWxtIjoiL21hdSIsImV4cCI6MTc1MjA1MDg2NCwiaWF0IjoxNzUyMDQzNjY0LCJleHBpcmVzX2luIjo3MjAwLCJqdGkiOiJyVEl3cWtYNUc0Wk1xZzlPUWJpVGpMZnBTZm8iLCJ1c2VyVXVpZCI6ImU4Y2Q4MzNkLWU2MTktNGE4NC1hY2YwLWY1ZWNjMWM2YTY1YiIsImVtYWlsIjoiYWhtZXIuaGFzaG1pQG1hZXJzay5jb20iLCJhY2Nlc3NUeXBlIjoiZXh0ZXJuYWwifQ.XvUzwYwi2TdHqBkKOCFBLopMww-vyTRj-fKqY_p6dQuujpCiYcxBKRTwW90JS8vpTs4seQ6A4kfq-MiO66gj7FJsRcrDEm6TexZA7GFDlj48HASka8I6m9eBayvzWHy03UBPhNFtkRS044h_5-dQ3uuZ2FoeD36xyGFM_--maRUC-aNvm0Z0RbxgZAv4gtxZ3GD936Mlhh_V-o5xX83qyJVhN5MAIfCeJjI0WWWVoAqYgHCCIEQUH1xUbrgzyj5zvZ8eyjiclasEsFTtmN-ArRnJPx6EMsrJjG5uw_W5Gv3mBagctEhmU6_84Y9lOR1dc_Jtt7Rvy3HmHZ8-bJjwnQ",
+    "idToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiS3hxNkhfQnAtWlc5SmxjZ0Vvbi01ZyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMTI5Iiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NjMsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NjQsImlhdCI6MTc1MjA0MzY2NCwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoib2pvWTVjNWNkTUJJeVNac3J6R0YiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6IlVlaDdqQng3Wk1GUHcwNGpIalV1V1EiLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.Wk0ffDruPe2E5JgXpHpGfJ8pW86C_mLS1IhW4V5CibHo8jXgp2CCPF1TCskFV_1MGts_7FSyTHKRarlsF9sI-hNXURScNwblxM4RO3WS7FIkY4Jnd8J46bsNl5Bu_9xI2b53e1Q01yjMc9a8mwwe-JBgk_hVysyeXMOLMnSxyCtthfE4yTrgChTN5SqMa7APYJbNWKrRCFhXkjrRH6NgpmDZNCBFWvyM19D3XXsY_yE6EC_xDH8Df_NAymIzVt97btPx8YpVPadUixk9N37OdIdoOKVcF6wQhRQW7HGS1YoyjeD3Y2fCq4GGSU-yRuZPR-b5wGZl5eD7hPswF31z1hy8r9PG7bqosjEaksLijI_9MwZA2GLWdJv40PX1I1kNT5x8R_nHAO7rlla_MLy7XeZdRsLTDR70PbfdLV8_8PzMzBSVCNpPVTmJYf3FShBRcukVxyglj3Ry3VQnaO0tLBf8-DqJGCybbInuIJrzxBOpY3O0LkEhVwp0czoVAaa5",
+    "refreshToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMTI4Iiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoicmVmcmVzaF90b2tlbiIsInRva2VuX3R5cGUiOiJCZWFyZXIiLCJhdXRoR3JhbnRJZCI6IkJxQVJ0bFFwTWJqVkxDbHhTM3Y1dnJFSnFOQSIsImF1ZCI6Im1jYTAwMSIsImFjciI6IjAiLCJuYmYiOjE3NTIwNDM2NjQsImdyYW50X3R5cGUiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiZW1haWwiXSwiYXV0aF90aW1lIjoxNzUyMDQzNjYzLCJyZWFsbSI6Ii9tYXUiLCJleHAiOjE3NTk5MzM2NjQsImlhdCI6MTc1MjA0MzY2NCwiZXhwaXJlc19pbiI6Nzg5MDAwMCwianRpIjoiZ2ZiZlhfY0czVnE1ek91Ums2bk9vRFJPRFhvIn0.IMSUXBc9JZYOyA8u4BgL7y22RV7qOllFxxGHQGGbDblsleF6rEET-7pSzsjxk5uh8LWU_hth7_0wFAo3XNj9jpLN3PfhEZOnxAttCP39Q_XdV7OeYU6fGXj7q2Hl5v8lcps3fJ-IGl8MifR9-kdEPSB5aVarvpviLWM5sMIyqrJq48U3rfC_9sPf2wTd2BXmiTRF8hLy_Nn7E8Ofz77Sgj3dBIoJeNfuLK9t3SDL72ui-_cyk4R3vvOEnSWFHLoOmypIExyzfHxpJA7kkknvflIRP2YeWuQMralLEbmYoP1vb3imXzjrxxUzsDHYK6P535u5wjdQ5iIWLUxCLbSK1Q",
+    "exp": "2025-07-09T08:47:44.000Z",
+    "personId": null,
+    "carrierOffice": null
+}
+  Given I have a authoriztionId and container number "MOBILE102"                                             # com.maersk.definations.vasUpsellDefinations.setAuthorizationShipmentNumber_DnDFreeTimeAPI(java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/vas-experience/dnd/freetime/MOBILE102
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiS3hxNkhfQnAtWlc5SmxjZ0Vvbi01ZyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMTI5Iiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NjMsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NjQsImlhdCI6MTc1MjA0MzY2NCwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoib2pvWTVjNWNkTUJJeVNac3J6R0YiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6IlVlaDdqQng3Wk1GUHcwNGpIalV1V1EiLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.Wk0ffDruPe2E5JgXpHpGfJ8pW86C_mLS1IhW4V5CibHo8jXgp2CCPF1TCskFV_1MGts_7FSyTHKRarlsF9sI-hNXURScNwblxM4RO3WS7FIkY4Jnd8J46bsNl5Bu_9xI2b53e1Q01yjMc9a8mwwe-JBgk_hVysyeXMOLMnSxyCtthfE4yTrgChTN5SqMa7APYJbNWKrRCFhXkjrRH6NgpmDZNCBFWvyM19D3XXsY_yE6EC_xDH8Df_NAymIzVt97btPx8YpVPadUixk9N37OdIdoOKVcF6wQhRQW7HGS1YoyjeD3Y2fCq4GGSU-yRuZPR-b5wGZl5eD7hPswF31z1hy8r9PG7bqosjEaksLijI_9MwZA2GLWdJv40PX1I1kNT5x8R_nHAO7rlla_MLy7XeZdRsLTDR70PbfdLV8_8PzMzBSVCNpPVTmJYf3FShBRcukVxyglj3Ry3VQnaO0tLBf8-DqJGCybbInuIJrzxBOpY3O0LkEhVwp0czoVAaa5
+				Consumer-Key=ppsnjcf8DSKA95DBxGHTyBfv1ugamE7X
+				Request-Source=Maersk Mobile App
+				Charge-Source=CXED
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "billOfLadingId": "MOBILE102",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "containerDetails": [
+        
+    ],
+    "customerCode": "10000007951",
+    "requestedDateTime": "2025-08-08T00:00:00.000Z",
+    "motherShipmentId": "MOBILE102",
+    "chargesFromDate": null,
+    "chargesToDate": null
+}
+{
+    "correlationId": "a4271d5e-eac5-42e4-ab61-59cf8330d768",
+    "billOfLadingId": "MOBILE102",
+    "motherShipmentId": "MOBILE102",
+    "customerCode": "10000007951",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "chargeTypeDisplayName": "Demurrage",
+    "isDndAllowed": false,
+    "reason": [
+        "TECHNICAL_ERROR"
+    ]
+}
+Response Body: {
+    "correlationId": "a4271d5e-eac5-42e4-ab61-59cf8330d768",
+    "billOfLadingId": "MOBILE102",
+    "motherShipmentId": "MOBILE102",
+    "customerCode": "10000007951",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "chargeTypeDisplayName": "Demurrage",
+    "isDndAllowed": false,
+    "reason": [
+        "TECHNICAL_ERROR"
+    ]
+}
+  When I send an POST request to DND free time API with container number                                     # com.maersk.definations.vasUpsellDefinations.sendPostRequest_DnDFreeTimeAPI()
+*************************************************
+Response Status: io.restassured.internal.ValidatableResponseImpl@401b67a9
+*************************************************
+  Then the response status code of DND free time API should be "403"                                         # com.maersk.definations.vasUpsellDefinations.verifyStatusCode_DnDFreeTimeAPI(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Submit free time information with valid authorization and valid container number for multiple data&quot;, &quot;Optional[Free time API]&quot;](6)" classname="scriptRunner.vasUpselAPIRunner" time="2.459">
+    <system-out><![CDATA[
+Scenario: Submit free time information with valid authorization and valid container number for multiple data # src/test/resources/features/vasUpsell.feature:34
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob_user_2",
+    "password": "Maersk@6"
+}
+{
+    "result": "SUCCESS",
+    "tokenId": "Fhmwr_UQtkcuL-wpNfFKilq4T7o.*AAJTSQACMDIAAlNLABx0UjJFcmttZjNFYlRkcHAvTVZBbDYxcEVHRVk9AAR0eXBlAANDVFMAAlMxAAIwNQ..*",
+    "authId": null,
+    "multifactor": false
+}
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/tokens/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				idToken=Fhmwr_UQtkcuL-wpNfFKilq4T7o.*AAJTSQACMDIAAlNLABx0UjJFcmttZjNFYlRkcHAvTVZBbDYxcEVHRVk9AAR0eXBlAANDVFMAAlMxAAIwNQ..*
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "customerCode": "10000007951"
+}
+{
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMTcwIiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiYWNjZXNzX3Rva2VuIiwidG9rZW5fdHlwZSI6IkJlYXJlciIsImF1dGhHcmFudElkIjoiZXdMOGkteGkzM2N0dnNjci03S0ZsTlB5ZmE0Iiwibm9uY2UiOiJ2aVR5N0ZlYklOclNqWEFDQTIzeiIsImF1ZCI6Im1jYTAwMSIsIm5iZiI6MTc1MjA0MzY2NiwiZ3JhbnRfdHlwZSI6ImF1dGhvcml6YXRpb25fY29kZSIsInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCJdLCJhdXRoX3RpbWUiOjE3NTIwNDM2NjYsInJlYWxtIjoiL21hdSIsImV4cCI6MTc1MjA1MDg2NiwiaWF0IjoxNzUyMDQzNjY2LCJleHBpcmVzX2luIjo3MjAwLCJqdGkiOiJodmZKVElTaWp4QzdZYU1HUGpzVlAzN2QzSlUiLCJ1c2VyVXVpZCI6ImU4Y2Q4MzNkLWU2MTktNGE4NC1hY2YwLWY1ZWNjMWM2YTY1YiIsImVtYWlsIjoiYWhtZXIuaGFzaG1pQG1hZXJzay5jb20iLCJhY2Nlc3NUeXBlIjoiZXh0ZXJuYWwifQ.dpYj4fGxjsy2RFIOaVraRiGYPVmbP8Jo9Waebhl4piW3bbr7njxxutCCgVDWrbogvz4aRGyqLGk1SD7Ao6D4oPj1ryXDvDtOd1o9NpwQOVnNJRGDUul-xDoSve9y7wU2OMosUnj6rakafx19flHG3475A_Ysp_FCijj6hUQtx_ea_dQhByUbzGPmhZ3yJpvheJuofRfuX_IPyoc_RlgBNxaJRjb6ukKdd_W65uIITYwJUGZ4lZ_10wwoNHB6-tb7sOMo7rGa6ypaHycwEeWUSLay3dIA__yuEi3ggrFYGek1KQZT0Pvsvz7kHhC0GAVPE_GL7AnnhBsYAJzQU1JvCg",
+    "idToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoic29KYTJyQlhCYmdPeVBvQTBzM00zZyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMTcyIiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NjYsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NjYsImlhdCI6MTc1MjA0MzY2NiwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoidmlUeTdGZWJJTnJTalhBQ0EyM3oiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6Ink1Q1lQQk5Vb3FrZVJPdURWb0FibHciLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.En-9BddIMpVUQVK2Yp8ce9G1RiXOYrjdzhZuLEzU5u5Y1SHh-5UOZatoLcv1vqcf9sanVnzsygc7mbgHbbGCFBaeWalVIEY1k3n9DRIcWQzyYsPp-roxX4ZdsedLu-Iu-FAfWML4jPHTYEKRz3eE8pkG9DP1HOMbuXS7-F5Jii4b_WwwcVZwlBZ-FKCAD1vBeWo8MhNYCQFTSsLuNk-QFOq3zUXJyIJ-0GewG870oQs41CN8q9TNq2K6NDF78QjK1X6zsi5oVU4SXfW7SOLd3gc9u_bbY4Ih-qlw0K7znsDBJNdI0h8hdoHIisv8GlQMErBiTPIy-oTEYoekHCRXr4jAuvXBhZy6_pluyOmGCt3zwEIP9z3e36AlZU9sPWpIoKsNsO7KmwsI9xZSN6PGHaiRk7521m0enH9_Feh3nGAQiNDfYC9_veWxpzoNWgFI_Uhp_Gz6MvITcQ7KIbXzHsnsAzxXd41xK9FgQYw2JaSQQL2eRwLR24-DjfQMcNuD",
+    "refreshToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMTcxIiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoicmVmcmVzaF90b2tlbiIsInRva2VuX3R5cGUiOiJCZWFyZXIiLCJhdXRoR3JhbnRJZCI6ImV3TDhpLXhpMzNjdHZzY3ItN0tGbE5QeWZhNCIsImF1ZCI6Im1jYTAwMSIsImFjciI6IjAiLCJuYmYiOjE3NTIwNDM2NjYsImdyYW50X3R5cGUiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiZW1haWwiXSwiYXV0aF90aW1lIjoxNzUyMDQzNjY2LCJyZWFsbSI6Ii9tYXUiLCJleHAiOjE3NTk5MzM2NjYsImlhdCI6MTc1MjA0MzY2NiwiZXhwaXJlc19pbiI6Nzg5MDAwMCwianRpIjoiNjltUzZaYUV1N1dzclFhN2tjdTh6eXk5RHU0In0.beFMWus2SADZO_TenGOdNDDJk2iFWTN2m15fyAKFf_-r-qvjIGep5KdtX7Zj5iNu2BCFuqzRm9o3EuiwHJMH6W3zQEGyBdqqf8HMX8aZIwHG68ox79FFGOv1bFYWA-4Asm2jU1SEBsYPAaLQwsPiLqDAe0Nyj1JvYlnpYb1wMvvocYP9aE8PkWxrx6oIALMLh8BPGHBbPWDmyo_0l_CCozM_7eFdHG3Iz5mBAQR80yrJO3CY1KKI4rRMp4d6kbPK7IttBKZPnojbEH4Exq4HiMSVsbenESOkbta8ggl6-pfGjd5axe7wdAtbNFNiJXBW4r7VrIDoS3yKa4Nkq21vIw",
+    "exp": "2025-07-09T08:47:46.000Z",
+    "personId": null,
+    "carrierOffice": null
+}
+  Given I have a authoriztionId and container number "UNKNOWN123"                                            # com.maersk.definations.vasUpsellDefinations.setAuthorizationShipmentNumber_DnDFreeTimeAPI(java.lang.String)
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/vas-experience/dnd/freetime/UNKNOWN123
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoic29KYTJyQlhCYmdPeVBvQTBzM00zZyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMTcyIiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NjYsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NjYsImlhdCI6MTc1MjA0MzY2NiwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoidmlUeTdGZWJJTnJTalhBQ0EyM3oiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6Ink1Q1lQQk5Vb3FrZVJPdURWb0FibHciLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.En-9BddIMpVUQVK2Yp8ce9G1RiXOYrjdzhZuLEzU5u5Y1SHh-5UOZatoLcv1vqcf9sanVnzsygc7mbgHbbGCFBaeWalVIEY1k3n9DRIcWQzyYsPp-roxX4ZdsedLu-Iu-FAfWML4jPHTYEKRz3eE8pkG9DP1HOMbuXS7-F5Jii4b_WwwcVZwlBZ-FKCAD1vBeWo8MhNYCQFTSsLuNk-QFOq3zUXJyIJ-0GewG870oQs41CN8q9TNq2K6NDF78QjK1X6zsi5oVU4SXfW7SOLd3gc9u_bbY4Ih-qlw0K7znsDBJNdI0h8hdoHIisv8GlQMErBiTPIy-oTEYoekHCRXr4jAuvXBhZy6_pluyOmGCt3zwEIP9z3e36AlZU9sPWpIoKsNsO7KmwsI9xZSN6PGHaiRk7521m0enH9_Feh3nGAQiNDfYC9_veWxpzoNWgFI_Uhp_Gz6MvITcQ7KIbXzHsnsAzxXd41xK9FgQYw2JaSQQL2eRwLR24-DjfQMcNuD
+				Consumer-Key=ppsnjcf8DSKA95DBxGHTyBfv1ugamE7X
+				Request-Source=Maersk Mobile App
+				Charge-Source=CXED
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "billOfLadingId": "UNKNOWN123",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "containerDetails": [
+        
+    ],
+    "customerCode": "10000007951",
+    "requestedDateTime": "2025-08-08T00:00:00.000Z",
+    "motherShipmentId": "UNKNOWN123",
+    "chargesFromDate": null,
+    "chargesToDate": null
+}
+{
+    "correlationId": "a2fe4b3f-2329-4411-b576-4ba53ae35d54",
+    "billOfLadingId": "UNKNOWN123",
+    "motherShipmentId": "UNKNOWN123",
+    "customerCode": "10000007951",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "chargeTypeDisplayName": "Demurrage",
+    "isDndAllowed": false,
+    "reason": [
+        "TECHNICAL_ERROR"
+    ]
+}
+Response Body: {
+    "correlationId": "a2fe4b3f-2329-4411-b576-4ba53ae35d54",
+    "billOfLadingId": "UNKNOWN123",
+    "motherShipmentId": "UNKNOWN123",
+    "customerCode": "10000007951",
+    "carrierCode": "MAEU",
+    "chargeType": "DMR",
+    "chargeTypeDisplayName": "Demurrage",
+    "isDndAllowed": false,
+    "reason": [
+        "TECHNICAL_ERROR"
+    ]
+}
+  When I send an POST request to DND free time API with container number                                     # com.maersk.definations.vasUpsellDefinations.sendPostRequest_DnDFreeTimeAPI()
+*************************************************
+Response Status: io.restassured.internal.ValidatableResponseImpl@ca60688
+*************************************************
+  Then the response status code of DND free time API should be "400"                                         # com.maersk.definations.vasUpsellDefinations.verifyStatusCode_DnDFreeTimeAPI(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the Notification Preferences API for valid device ID&quot;, &quot;Optional[Notifications API]&quot;](1)" classname="scriptRunner.notificationAPIRunner" time="3.533">
+    <system-out><![CDATA[
+Scenario: Validate the Notification Preferences API for valid device ID                 # src/test/resources/features/notifications.feature:14
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob_user_2",
+    "password": "Maersk@6"
+}
+{
+    "result": "SUCCESS",
+    "tokenId": "Uf07aWC6rFMqXlD-tXkXhscdoq8.*AAJTSQACMDIAAlNLABxDWE9lV3MrZjkwaEJsMmdUYlluallpbnozaVE9AAR0eXBlAANDVFMAAlMxAAIwNA..*",
+    "authId": null,
+    "multifactor": false
+}
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/tokens/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				idToken=Uf07aWC6rFMqXlD-tXkXhscdoq8.*AAJTSQACMDIAAlNLABxDWE9lV3MrZjkwaEJsMmdUYlluallpbnozaVE9AAR0eXBlAANDVFMAAlMxAAIwNA..*
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "customerCode": "10000007951"
+}
+{
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMTg4Iiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiYWNjZXNzX3Rva2VuIiwidG9rZW5fdHlwZSI6IkJlYXJlciIsImF1dGhHcmFudElkIjoiVmhsdzJIWHpkYkFuNERHbTk5RkRZcEkwTk04Iiwibm9uY2UiOiJrdFZQTURPdndSWG1XclVxcU9HQiIsImF1ZCI6Im1jYTAwMSIsIm5iZiI6MTc1MjA0MzY3MSwiZ3JhbnRfdHlwZSI6ImF1dGhvcml6YXRpb25fY29kZSIsInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCJdLCJhdXRoX3RpbWUiOjE3NTIwNDM2NzAsInJlYWxtIjoiL21hdSIsImV4cCI6MTc1MjA1MDg3MSwiaWF0IjoxNzUyMDQzNjcxLCJleHBpcmVzX2luIjo3MjAwLCJqdGkiOiJaZDBjQjRicWZsSjFHOGJIWlJGcDlRWU5fUkkiLCJ1c2VyVXVpZCI6ImU4Y2Q4MzNkLWU2MTktNGE4NC1hY2YwLWY1ZWNjMWM2YTY1YiIsImVtYWlsIjoiYWhtZXIuaGFzaG1pQG1hZXJzay5jb20iLCJhY2Nlc3NUeXBlIjoiZXh0ZXJuYWwifQ.JWcEOv9moCrOaWQ4GERG97fiyzVcKTguPQfPORX6yOXYsVgiw9T_bxlIroO_Oh9_Gp82bVTqpY_VAJ818RL_tBhA_VeRN2h_47BLiSjHMnL4qnL55KX8x5MkwrSab5sjyfeOIG8Qlltyoh4CnbIxumN8rkuAJYMYF7qLq8Sv2Em7BUxQW11vngsJ5PjtlbhiROjEQ67pCJuFwUvtKnEpL-u-kBYO5Ox3Dey58MpJAQLdiIqA91jzaOWTT4yfHeBz4wS0rIko5Vg8B3gMo-zrlJ22pnaoLbtAFysG7mzPN7MuVRGh_RojUyG5LAVn7_Kxgbu81cXlcUxBK1NwU6sMcg",
+    "idToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoieklYMzFqOUhDSER4ZU9QaWVsMXl6dyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMTkwIiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NzAsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NzEsImlhdCI6MTc1MjA0MzY3MSwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoia3RWUE1ET3Z3UlhtV3JVcXFPR0IiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6ImMyRl9JRnd4NmVfc0kzSWFVNmd6WEEiLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.c4OUL9qpNKwrYkSvBwIH9eWBjwXlOIhiXnCe80h3Z2IKvnKf8ob0T3FFFbCUlq_sBiJ8bb14jgSE3x24gJNTtFF8bnL94GJ1n9CeZs8XnJOew0k0QGmTaN1oihmjGoOFw0QbMaph2N8iC4kA0YLkYzXflE3I8yo-i3D3vISeY_3t1Tj2NLTRm0E-zuykCtNdRLoPggkpJ4h3xR9A8l1ZLtRJFxn6G1qU7kKrDT4Ej48JPGJ_iNyHWvATjnE5CenLs2xrI7WN6tWJSkAMdGDV_MHpsziTCAvPFNzLo77m0YNn1gUSurOW9zWa4XYpO19e8B0C2t9jpmhQHLClj8waZfmd1sz4A7NAfuClbaXdDBP_flLQNVB6ngyr7ABZnBLYLpaOr73EHxWMvm28ILNn5n6_MGNwQv2AQtmXBy3iOcLPaLlegnu8kngd4GW-hh4-JbtK24_LLrdptFTBaI3yLW92ElY55yEJj5cJBCDd-M63u3NYS6HodYx5FkVLze1U",
+    "refreshToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMTg5Iiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoicmVmcmVzaF90b2tlbiIsInRva2VuX3R5cGUiOiJCZWFyZXIiLCJhdXRoR3JhbnRJZCI6IlZobHcySFh6ZGJBbjRER205OUZEWXBJME5NOCIsImF1ZCI6Im1jYTAwMSIsImFjciI6IjAiLCJuYmYiOjE3NTIwNDM2NzEsImdyYW50X3R5cGUiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiZW1haWwiXSwiYXV0aF90aW1lIjoxNzUyMDQzNjcwLCJyZWFsbSI6Ii9tYXUiLCJleHAiOjE3NTk5MzM2NzEsImlhdCI6MTc1MjA0MzY3MSwiZXhwaXJlc19pbiI6Nzg5MDAwMCwianRpIjoiaEs0cF9ubEpzdjFPdVFiSEk0YVpyc3RoaFhRIn0.AhSutMQDH2j6EyyDwuc34C5v9_pEJ-hfFdJI7lBDXdIGO6JSM8Zq8q3jehruW0-gcrWz8tousgPKd3NirEb8me3czVmSbnlQh67UMHft8BiSijY2UiS1fVMByPvdWAGwn9-K-5oK1kH18PYuqOfozS2uvJw5-egpV7SEOo3mGwMmFALjBNRcaEIEwtf3GNvZaHucd42nYcGHAWMgEwYA7fZ2OVQeUzaTOxEQqtYMq79ZgwhfImRSJHppjHdSxxw00Itayx2eH23g_7E-yQ4AGLASABdpo4lttY4Pami3wVTVYWwz-naeZ9ksYcv78Cwz_FAzOCrWXMD2lghuS2IgEA",
+    "exp": "2025-07-09T08:47:51.000Z",
+    "personId": null,
+    "carrierOffice": null
+}
+  Given a authoriztionId and device ID "f44abee1-872d-47ff-80e2-0c74880fcdf9"           # com.maersk.definations.notificationDefinations.setAuthorizationDeviceID_NotificationsPreferencesAPI(java.lang.String)
+Request method:	GET
+Request URI:	https://api-stage.maersk.com/notifications/public/mobile/f44abee1-872d-47ff-80e2-0c74880fcdf9/preferences
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoieklYMzFqOUhDSER4ZU9QaWVsMXl6dyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImU0ZjU4ZjM2LTVhMWUtNDMyNy04ODUyLTg1ZDQ4YmNkM2VjMy0yMzcyMTkwIiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NzAsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NzEsImlhdCI6MTc1MjA0MzY3MSwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoia3RWUE1ET3Z3UlhtV3JVcXFPR0IiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6ImMyRl9JRnd4NmVfc0kzSWFVNmd6WEEiLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.c4OUL9qpNKwrYkSvBwIH9eWBjwXlOIhiXnCe80h3Z2IKvnKf8ob0T3FFFbCUlq_sBiJ8bb14jgSE3x24gJNTtFF8bnL94GJ1n9CeZs8XnJOew0k0QGmTaN1oihmjGoOFw0QbMaph2N8iC4kA0YLkYzXflE3I8yo-i3D3vISeY_3t1Tj2NLTRm0E-zuykCtNdRLoPggkpJ4h3xR9A8l1ZLtRJFxn6G1qU7kKrDT4Ej48JPGJ_iNyHWvATjnE5CenLs2xrI7WN6tWJSkAMdGDV_MHpsziTCAvPFNzLo77m0YNn1gUSurOW9zWa4XYpO19e8B0C2t9jpmhQHLClj8waZfmd1sz4A7NAfuClbaXdDBP_flLQNVB6ngyr7ABZnBLYLpaOr73EHxWMvm28ILNn5n6_MGNwQv2AQtmXBy3iOcLPaLlegnu8kngd4GW-hh4-JbtK24_LLrdptFTBaI3yLW92ElY55yEJj5cJBCDd-M63u3NYS6HodYx5FkVLze1U
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+{
+    "shipmentIds": [
+        
+    ],
+    "eventTypes": [
+        "Shipment Confirmed",
+        "Shipment Cancellation",
+        "Vessel Departure",
+        "Shipment ETA Change",
+        "Vessel Pre-Arrival",
+        "Spot Opened",
+        "Invoice Issued"
+    ]
+}
+Response Status: 200
+Response Body: {
+    "shipmentIds": [
+        
+    ],
+    "eventTypes": [
+        "Shipment Confirmed",
+        "Shipment Cancellation",
+        "Vessel Departure",
+        "Shipment ETA Change",
+        "Vessel Pre-Arrival",
+        "Spot Opened",
+        "Invoice Issued"
+    ]
+}
+  When I send a GET request to Notification Preferences API endpoint                    # com.maersk.definations.notificationDefinations.sendGetRequest_NotificationsPreferencesAPI()
+  Then the response status code of Notification Preferences API request should be "200" # com.maersk.definations.notificationDefinations.verifyStatusCode_NotificationsPreferencesAPI(java.lang.String)
+Response Body: {
+    "shipmentIds": [
+        
+    ],
+    "eventTypes": [
+        "Shipment Confirmed",
+        "Shipment Cancellation",
+        "Vessel Departure",
+        "Shipment ETA Change",
+        "Vessel Pre-Arrival",
+        "Spot Opened",
+        "Invoice Issued"
+    ]
+}
+  And the response body should contain the user's notification preferences              # com.maersk.definations.notificationDefinations.verifyResponse_NotificationsPreferencesAPI()
+]]></system-out>
+    <system-err><![CDATA[┌──────────────────────────────────────────────────────────────────────────┐
+│ View your Cucumber Report at:                                            │
+│ https://reports.cucumber.io/reports/e8291ea8-26b7-4e03-aece-c5b8b87f04d7 │
+│                                                                          │
+│ This report will self-destruct in 24h.                                   │
+└──────────────────────────────────────────────────────────────────────────┘]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the Notification Preferences API for an invalid device ID&quot;, &quot;Optional[Notifications API]&quot;](2)" classname="scriptRunner.notificationAPIRunner" time="2.342">
+    <system-out><![CDATA[
+Scenario: Validate the Notification Preferences API for an invalid device ID            # src/test/resources/features/notifications.feature:24
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob_user_2",
+    "password": "Maersk@6"
+}
+{
+    "result": "SUCCESS",
+    "tokenId": "etyy8lBjfCtCe_KjFqPnVciqyBs.*AAJTSQACMDIAAlNLABxVQVJ2OTRlaXdheTB0SDhjTkFjcHFMOTBQMUU9AAR0eXBlAANDVFMAAlMxAAIwNA..*",
+    "authId": null,
+    "multifactor": false
+}
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/tokens/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				idToken=etyy8lBjfCtCe_KjFqPnVciqyBs.*AAJTSQACMDIAAlNLABxVQVJ2OTRlaXdheTB0SDhjTkFjcHFMOTBQMUU9AAR0eXBlAANDVFMAAlMxAAIwNA..*
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "customerCode": "10000007951"
+}
+{
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImM0MDY0YTBjLTczNjAtNDZkZC1iNTc3LTM0MTA1NjdlNjI1OC0yMzU2MDU5Iiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiYWNjZXNzX3Rva2VuIiwidG9rZW5fdHlwZSI6IkJlYXJlciIsImF1dGhHcmFudElkIjoidTM5bE5RNnh4bDhpRXBrb0dlWFlIazRBb3U0Iiwibm9uY2UiOiIwSDNpQVdKYTFPR1VZRkJWS1VXdyIsImF1ZCI6Im1jYTAwMSIsIm5iZiI6MTc1MjA0MzY3NCwiZ3JhbnRfdHlwZSI6ImF1dGhvcml6YXRpb25fY29kZSIsInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCJdLCJhdXRoX3RpbWUiOjE3NTIwNDM2NzQsInJlYWxtIjoiL21hdSIsImV4cCI6MTc1MjA1MDg3NCwiaWF0IjoxNzUyMDQzNjc0LCJleHBpcmVzX2luIjo3MjAwLCJqdGkiOiJZRDFpd1ZIS3c2LWlabl9HdDBHSDBoTVdJdG8iLCJ1c2VyVXVpZCI6ImU4Y2Q4MzNkLWU2MTktNGE4NC1hY2YwLWY1ZWNjMWM2YTY1YiIsImVtYWlsIjoiYWhtZXIuaGFzaG1pQG1hZXJzay5jb20iLCJhY2Nlc3NUeXBlIjoiZXh0ZXJuYWwifQ.l_8zhdX3NApijyMVWt3mob6pqsOMG5Qgd_AQTqJYEq6_-pOmxHFPZMnPSH77Yub4G1OuAulw3uOuXaD0ZAXf0OiJ0TyHRCoVTeHCwzEsd8H6NcMxFH7yqXmmab9qgTTgPCOPcirbS3yOiDwgSWetj2hhByXPjACdpKYh0uyTU6AnHWEtbxCZYEvXGTwMq3E5FB-1QP8DG7fcn30BYft_xHzhAkWa7vEuVxKN76Z-2iVXtmmqko1ergB8kKyLLJ7rGDlaZh-PTsN34v66Y3MueHI9_MK-vZArYkE8Sieh73evNEc8vLHAA_hERiLVkKTLcjCplnITdoGXFcIwz6_hpg",
+    "idToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiT2hWSW1oejNsdGNEdVhNLW1iUThvQSIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImM0MDY0YTBjLTczNjAtNDZkZC1iNTc3LTM0MTA1NjdlNjI1OC0yMzU2MDYxIiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NzQsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NzQsImlhdCI6MTc1MjA0MzY3NCwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoiMEgzaUFXSmExT0dVWUZCVktVV3ciLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6IlpzcW1KTnh6LUpta0ttU0JBSC0zSEEiLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.pNl1DsAMllk2QJqtQrCggxs6m-Kl5n_e0AW5faXnQqKZmlp33Aj2D48KvY2jvXDkqWALEDQ2JyhiX3fP5wX39dhI0OlORMLkeajBBlOJihngwTYiy3tSCSvGES5IaWjsAHLZvHMcaHR_I-R5PsMXdEFY09-1xyqCJna72c9Sn1RC5f288fNfG2sJgWKGbgYlcNrDsNAGGh3kLd4A0S-jiefozNk34vao7AB7_PVWHSr-yAuV4wzv71h1QbvjogPxs2gT29Qhyn3s59q3S6_fCGEN9hu3scFVcl0yIrBZQdie2tz0IPW2PwoLQ-xRw1YkWGzm05NCgHFYZA3R21i_KZUhpMXimZZOpLFe3LAau2sK4EK6vCWf4zK26Er9-WWaHr70LKwbX9no1p1AvXr6qzR6gZIZDYxwtLrcewPq78h7PlfPr0EWAG2Ipe0OOm5zo9WBKu1yNL3L46FEprpS_SFZNrRKuMK0ZCiq_GeGJhYYy5EPee2i_hMTG4OFJH0r",
+    "refreshToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImM0MDY0YTBjLTczNjAtNDZkZC1iNTc3LTM0MTA1NjdlNjI1OC0yMzU2MDYwIiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoicmVmcmVzaF90b2tlbiIsInRva2VuX3R5cGUiOiJCZWFyZXIiLCJhdXRoR3JhbnRJZCI6InUzOWxOUTZ4eGw4aUVwa29HZVhZSGs0QW91NCIsImF1ZCI6Im1jYTAwMSIsImFjciI6IjAiLCJuYmYiOjE3NTIwNDM2NzQsImdyYW50X3R5cGUiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiZW1haWwiXSwiYXV0aF90aW1lIjoxNzUyMDQzNjc0LCJyZWFsbSI6Ii9tYXUiLCJleHAiOjE3NTk5MzM2NzQsImlhdCI6MTc1MjA0MzY3NCwiZXhwaXJlc19pbiI6Nzg5MDAwMCwianRpIjoiZ3ZkM0VxWC1ISVVPaFNOcjkxSjdMaXJaaWprIn0.RPmrCMiQDppec0sIRb_7An_sG73gH2fi6SMQo-HOI7Huozs_rPAt7seT5xgz0U7WNxY3Qca7iseLuiym1WzmZ24smXJzwffikUXrQZVrzMO0EpJhFHyNwXxN8TwJWMVlx4sEKDDb5f4Y0tTTUPRGoXg8RfDcSlEm2kdpWIDz9MbhQXFjjzz5X2AIpqBj-zF-noxmZrMjqIwrBEIQwCP0TbbONPuuUhTw_XlCVoYEloC_kJayCGWKosy6OI8NOVSa8ruy_BwNx0aUEo1uuluyg-tPsq-Fyj0NAErn_Gct5wYhtn2ocnDOpDoVVixP2VuneCnJev8EjOU2J7BZ-p3e6g",
+    "exp": "2025-07-09T08:47:54.000Z",
+    "personId": null,
+    "carrierOffice": null
+}
+  Given a authoriztionId and device ID "f44abee1-872d-80e2-0c74880fcdf9"                # com.maersk.definations.notificationDefinations.setAuthorizationDeviceID_NotificationsPreferencesAPI(java.lang.String)
+Request method:	GET
+Request URI:	https://api-stage.maersk.com/notifications/public/mobile/f44abee1-872d-80e2-0c74880fcdf9/preferences
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiT2hWSW1oejNsdGNEdVhNLW1iUThvQSIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImM0MDY0YTBjLTczNjAtNDZkZC1iNTc3LTM0MTA1NjdlNjI1OC0yMzU2MDYxIiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NzQsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NzQsImlhdCI6MTc1MjA0MzY3NCwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoiMEgzaUFXSmExT0dVWUZCVktVV3ciLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6IlpzcW1KTnh6LUpta0ttU0JBSC0zSEEiLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.pNl1DsAMllk2QJqtQrCggxs6m-Kl5n_e0AW5faXnQqKZmlp33Aj2D48KvY2jvXDkqWALEDQ2JyhiX3fP5wX39dhI0OlORMLkeajBBlOJihngwTYiy3tSCSvGES5IaWjsAHLZvHMcaHR_I-R5PsMXdEFY09-1xyqCJna72c9Sn1RC5f288fNfG2sJgWKGbgYlcNrDsNAGGh3kLd4A0S-jiefozNk34vao7AB7_PVWHSr-yAuV4wzv71h1QbvjogPxs2gT29Qhyn3s59q3S6_fCGEN9hu3scFVcl0yIrBZQdie2tz0IPW2PwoLQ-xRw1YkWGzm05NCgHFYZA3R21i_KZUhpMXimZZOpLFe3LAau2sK4EK6vCWf4zK26Er9-WWaHr70LKwbX9no1p1AvXr6qzR6gZIZDYxwtLrcewPq78h7PlfPr0EWAG2Ipe0OOm5zo9WBKu1yNL3L46FEprpS_SFZNrRKuMK0ZCiq_GeGJhYYy5EPee2i_hMTG4OFJH0r
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+Response Status: 404
+Response Body: 
+  When I send a GET request to Notification Preferences API endpoint                    # com.maersk.definations.notificationDefinations.sendGetRequest_NotificationsPreferencesAPI()
+  Then the response status code of Notification Preferences API request should be "404" # com.maersk.definations.notificationDefinations.verifyStatusCode_NotificationsPreferencesAPI(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the Notification Preferences API for an invalid device ID&quot;, &quot;Optional[Notifications API]&quot;](3)" classname="scriptRunner.notificationAPIRunner" time="1.588">
+    <system-out><![CDATA[
+Scenario: Validate the Notification Preferences API for an invalid device ID            # src/test/resources/features/notifications.feature:25
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/authentication/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mob_user_2",
+    "password": "Maersk@6"
+}
+{
+    "result": "SUCCESS",
+    "tokenId": "wKTv7bAMoU8NskGysCz-QBIW-uA.*AAJTSQACMDIAAlNLABw0Ym5IcU52VG9RcHBvTHJWQ3lFc0NhcC9vV3M9AAR0eXBlAANDVFMAAlMxAAIwNQ..*",
+    "authId": null,
+    "multifactor": false
+}
+Request method:	POST
+Request URI:	https://api-stage.maersk.com/shipmentmobile/security/tokens/external
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		carrierCode=MAEU
+				X-Requestor=K6 Shipment Mobile; 9feca62a49337fa9bfb9
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				idToken=wKTv7bAMoU8NskGysCz-QBIW-uA.*AAJTSQACMDIAAlNLABw0Ym5IcU52VG9RcHBvTHJWQ3lFc0NhcC9vV3M9AAR0eXBlAANDVFMAAlMxAAIwNQ..*
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "customerCode": "10000007951"
+}
+{
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImM0MDY0YTBjLTczNjAtNDZkZC1iNTc3LTM0MTA1NjdlNjI1OC0yMzU2MDcxIiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiYWNjZXNzX3Rva2VuIiwidG9rZW5fdHlwZSI6IkJlYXJlciIsImF1dGhHcmFudElkIjoibG9KV3ZMblJKMnY3cXBMc2pwbmRwZk5iRXhzIiwibm9uY2UiOiJ5VGoyN2NzS3NtWW1zVndIcWI5NyIsImF1ZCI6Im1jYTAwMSIsIm5iZiI6MTc1MjA0MzY3NywiZ3JhbnRfdHlwZSI6ImF1dGhvcml6YXRpb25fY29kZSIsInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCJdLCJhdXRoX3RpbWUiOjE3NTIwNDM2NzYsInJlYWxtIjoiL21hdSIsImV4cCI6MTc1MjA1MDg3NywiaWF0IjoxNzUyMDQzNjc3LCJleHBpcmVzX2luIjo3MjAwLCJqdGkiOiJIS2JfOXJIMWR5cEREZDF1Nl9HTnpwb081ZUUiLCJ1c2VyVXVpZCI6ImU4Y2Q4MzNkLWU2MTktNGE4NC1hY2YwLWY1ZWNjMWM2YTY1YiIsImVtYWlsIjoiYWhtZXIuaGFzaG1pQG1hZXJzay5jb20iLCJhY2Nlc3NUeXBlIjoiZXh0ZXJuYWwifQ.ihlHVLWQPiloTAzf6ZWaXjJU32h1kQTuZcfoeAYeLnQzmGzGGEO4QJedflcH5ysT3jNY8JECxRiNFS57wobi7hyRl9ee59hxLcZMyP50daYpNtKQeE0jIi2Rfx6uKfavWkuYct4YQ7jcBF4nBe_eCpZVUrOiftCG-5lD_j6qMd6DZNfTK9DWevK7_AxWM5Vl8QiXDX6jx-khUIWC3OT397RLVuBVKpk1lfFXMHeaN-V-CBS6Y-rkTxoP-EMfnI1BQXUsaA89rSZEygvSlyU1FMP8W2nPWx6JWENyFgXWpeavWm2XPYq7ZkDTA9oaxJdIAA5cE05IqDfR7Hajxc9Rqg",
+    "idToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiMjlna1ZsZnMwdWdpbjd4MXlKVTZFdyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImM0MDY0YTBjLTczNjAtNDZkZC1iNTc3LTM0MTA1NjdlNjI1OC0yMzU2MDczIiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NzYsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NzcsImlhdCI6MTc1MjA0MzY3NywiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoieVRqMjdjc0tzbVltc1Z3SHFiOTciLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6IjZ4amlNMU9zaVhJREJydlIxUFZpdGciLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.BmY0vP81v_E8CVGe4UGkj1d6TfJ1GzYftYvW2Tl27UMLtK8kisUviSlCp45Te3Ka3Oj64urJv_EOzp2aQv2N7ZD1izMGqaauO2zGl-GYhUcfAG3ResDaKYRX8BUNtJ8XZ2MW2VDCPopProwokPe617XBjsCpKSWSrn1oFBZHr-_VyzqSlRxqCOwVS36Da5BPnWuyjCzhmJhAcZQwTxLx1DBsiMwA1szyRZhC548HXczAmhgAJH10uuMGATk4xy-H43_FEWiHuI14BZlxTRelaADfzzYWPAJlO8asQbD0fleWHEwhU96qur4HqraNd7JRNmCt0f99dAa9PsKVm8lxPUNIXO5imO6CREu1mTGatX5Tmgl_s3glpVTvu_S6Lpz225VjVCAMsXe4csRjKyWW2-F_R4iXVmcWUbKcRWEFCw93vn7_-o9Fwyjx-Yc3AzLjUs19lq9FcQeAQij5nA9DuymwD1rzZrTCLl4_uZeWWhaX2Qipp4Na7u0-o8An5i1x",
+    "refreshToken": "eyJ0eXAiOiJKV1QiLCJraWQiOiI4anlKRk93VFlWaFhYRDJIMS8wUEEwNGZLWUk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJtb2JfdXNlcl8yIiwiY3RzIjoiT0FVVEgyX1NUQVRFTEVTU19HUkFOVCIsImF1dGhfbGV2ZWwiOjAsImF1ZGl0VHJhY2tpbmdJZCI6ImM0MDY0YTBjLTczNjAtNDZkZC1iNTc3LTM0MTA1NjdlNjI1OC0yMzU2MDcyIiwic3VibmFtZSI6Im1vYl91c2VyXzIiLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoicmVmcmVzaF90b2tlbiIsInRva2VuX3R5cGUiOiJCZWFyZXIiLCJhdXRoR3JhbnRJZCI6ImxvSld2TG5SSjJ2N3FwTHNqcG5kcGZOYkV4cyIsImF1ZCI6Im1jYTAwMSIsImFjciI6IjAiLCJuYmYiOjE3NTIwNDM2NzcsImdyYW50X3R5cGUiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiZW1haWwiXSwiYXV0aF90aW1lIjoxNzUyMDQzNjc2LCJyZWFsbSI6Ii9tYXUiLCJleHAiOjE3NTk5MzM2NzcsImlhdCI6MTc1MjA0MzY3NywiZXhwaXJlc19pbiI6Nzg5MDAwMCwianRpIjoieHhQMW9qRlNmbkhNNENnb3Z2TVMta2dLM01rIn0.oZWy_A3pe--shh4oTV95D7LhZol6EAXfIp9tDLXkaInGKIrcQzNQTc30PKEZo3L0IMgAlBj8bkL9rZ39WnfbX7gLe9HUKW3hhTcKtbAwOVLdN9qVQZNCoktJMoROxz6jdCCm5tCgkjErqW00z320YHWAdSWPLQ_Ox8KazOTX6TwZ-Bg-h3NQKS5o_wG3XWMOXCTUcKXtJiE8p0efbEI4_Eh8QDweTx2LVqAn5j32tpRY_0F9A1jBSOnrxjCd8IWUmkmAFnevbnTZ8D7rJmhIjTYQJKFUnGtEte1Cs04WLtPF16XF-t6kClGKAZdATFIZPWyGnRgkSIJmnwniqGtQQA",
+    "exp": "2025-07-09T08:47:57.000Z",
+    "personId": null,
+    "carrierOffice": null
+}
+  Given a authoriztionId and device ID ""                                               # com.maersk.definations.notificationDefinations.setAuthorizationDeviceID_NotificationsPreferencesAPI(java.lang.String)
+Request method:	GET
+Request URI:	https://api-stage.maersk.com/notifications/public/mobile%2F%2Fpreferences
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiMjlna1ZsZnMwdWdpbjd4MXlKVTZFdyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImM0MDY0YTBjLTczNjAtNDZkZC1iNTc3LTM0MTA1NjdlNjI1OC0yMzU2MDczIiwicm9sZXMiOlsiSW52b2ljZXMiLCJDb250cmFjdFJhdGUiLCJCb29raW5nIiwiV0JPTEFwcHJvdmVyIiwiUGF5bWVudHMiLCJCYXNpY0N1c3RvbWVyIiwiRG9jdW1lbnRhdGlvbiJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NTIwNDM2NzYsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NTIwNTA4NzcsImlhdCI6MTc1MjA0MzY3NywiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoieVRqMjdjc0tzbVltc1Z3SHFiOTciLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6IjZ4amlNMU9zaVhJREJydlIxUFZpdGciLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.BmY0vP81v_E8CVGe4UGkj1d6TfJ1GzYftYvW2Tl27UMLtK8kisUviSlCp45Te3Ka3Oj64urJv_EOzp2aQv2N7ZD1izMGqaauO2zGl-GYhUcfAG3ResDaKYRX8BUNtJ8XZ2MW2VDCPopProwokPe617XBjsCpKSWSrn1oFBZHr-_VyzqSlRxqCOwVS36Da5BPnWuyjCzhmJhAcZQwTxLx1DBsiMwA1szyRZhC548HXczAmhgAJH10uuMGATk4xy-H43_FEWiHuI14BZlxTRelaADfzzYWPAJlO8asQbD0fleWHEwhU96qur4HqraNd7JRNmCt0f99dAa9PsKVm8lxPUNIXO5imO6CREu1mTGatX5Tmgl_s3glpVTvu_S6Lpz225VjVCAMsXe4csRjKyWW2-F_R4iXVmcWUbKcRWEFCw93vn7_-o9Fwyjx-Yc3AzLjUs19lq9FcQeAQij5nA9DuymwD1rzZrTCLl4_uZeWWhaX2Qipp4Na7u0-o8An5i1x
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+{
+    "fault": {
+        "faultstring": "Unable to identify proxy for host: maersk-host and url: /notifications/public/mobile%2F%2Fpreferences",
+        "detail": {
+            "errorcode": "messaging.adaptors.http.flow.ApplicationNotFound"
+        }
+    }
+}
+Response Status: 404
+Response Body: {
+    "fault": {
+        "faultstring": "Unable to identify proxy for host: maersk-host and url: /notifications/public/mobile%2F%2Fpreferences",
+        "detail": {
+            "errorcode": "messaging.adaptors.http.flow.ApplicationNotFound"
+        }
+    }
+}
+  When I send a GET request to Notification Preferences API endpoint                    # com.maersk.definations.notificationDefinations.sendGetRequest_NotificationsPreferencesAPI()
+  Then the response status code of Notification Preferences API request should be "404" # com.maersk.definations.notificationDefinations.verifyStatusCode_NotificationsPreferencesAPI(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the Notification Preferences API for an unauthorized user&quot;, &quot;Optional[Notifications API]&quot;](4)" classname="scriptRunner.notificationAPIRunner" time="1.242">
+    <system-out><![CDATA[
+Scenario: Validate the Notification Preferences API for an unauthorized user                               # src/test/resources/features/notifications.feature:35
+  Given a invalid authoriztionId and device ID "f44abee1-872d-47ff-80e2-0c74880fcdf9" exists in the system # com.maersk.definations.notificationDefinations.setInvalidAuthorizationDeviceID_NotificationsPreferencesAPI(java.lang.String)
+Request method:	GET
+Request URI:	https://api-stage.maersk.com/notifications/public/mobile/f44abee1-872d-47ff-80e2-0c74880fcdf9/preferences
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJraWQiOiIzaTA5WlhQbE1PTEpCYXFnSHUxK3ZRc1AwOVU9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiRWpHVDhscWxpd1FtdVV2TVBxR2FGdyIsInN1YiI6Im1vYl91c2VyXzIiLCJmaXJzdG5hbWUiOiJBaG1lciIsImF1ZGl0VHJhY2tpbmdJZCI6ImI1ZjIxYmU2LTczMzUtNGY3Mi05ZDY5LWU4NDM5YzY3YWFjMy0xOTMxNDgyIiwicm9sZXMiOlsiRG9jdW1lbnRhdGlvbiIsIlBheW1lbnRzIiwiQ29udHJhY3RSYXRlIiwiQm9va2luZyIsIkJhc2ljQ3VzdG9tZXIiLCJXQk9MQXBwcm92ZXIiLCJJbnZvaWNlcyJdLCJpc3MiOiJodHRwczovL2lhbS1zdGFnZS5tYWVyc2suY29tL2FjbS9vYXV0aDIvbWF1IiwidG9rZW5OYW1lIjoiaWRfdG9rZW4iLCJvZmZpY2UiOiJBYXJodXMgLSBESyIsImFjciI6IjAiLCJhenAiOiJtY2EwMDEiLCJhdXRoX3RpbWUiOjE3NDY2MjM1MzgsInBlcnNvbmlkIjoiMTAwMDA4ODE5MjQiLCJleHAiOjE3NDY2MzA3NDQsImlhdCI6MTc0NjYyMzU0NCwiY3VzdG9tZXJfY29kZSI6IjEwMDAwMDA3OTUxIiwiZW1haWwiOiJhaG1lci5oYXNobWlAbWFlcnNrLmNvbSIsIm5vbmNlIjoiaDlwemVLVVJYUUtvdTB6aE9IN0UiLCJsYXN0bmFtZSI6Ikhhc2htaSIsImF1ZCI6Im1jYTAwMSIsImNfaGFzaCI6ImttSERTWTR0S1RLVXp3WmlFMXRkRlEiLCJjYXJyaWVyIjoiTUFFVSIsInVzZXJVdWlkIjoiZThjZDgzM2QtZTYxOS00YTg0LWFjZjAtZjVlY2MxYzZhNjViIiwicmVhbG0iOiIvbWF1IiwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJ1c2VybmFtZSI6Im1vYl91c2VyXzIifQ.biWvPgWsYGYBrfHcz_6eL14lLYMjxGRxNZLtbGwKXjoRvl11oyevy0vA6DgquMJndJydogn_3BoFCjnsje7UgJk-EieBGtxZIT4Li5p9rmDgSwLmW8GaGQuHn6Y56Iw-JOqm5QssFXkKyBrboUEYhywFqKgWFaAvhx_uVz6aRxSFEYA6RjlcOcE1nfyTpp2koPRm27s4Pqi2iQt0fTZhZoLkGa71rXmqQYIKZwVn7MRUoD2iVgwbM43kSsF6ciRlVq9mcGhPhap0V-hXzJVSONM7cqFoJNwU-6JffN2_rmhS-IC15LJrX3Y9au8Ob2-ntsB57hB_HwixCUsMgkgWKyFd_a-_DO97nWVFXY-3x5hBCuR8TnhB0AGd3yC7nLSIglm-mcZ0WvN9enulalaQx2Hfzyk3LBfE5wmzRZYeOHcBNxdCOgLtvIaFHHxX63S65DTiAD6MPkw9xlawZ0OyODD53BwqTqKkdK7grtr
+				Consumer-Key=xSQt5NQjPGQOWasXuI19oKCALfJ7d4PP
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+Response Status: 401
+Response Body: 
+  When I send a GET request to Notification Preferences API endpoint                                       # com.maersk.definations.notificationDefinations.sendGetRequest_NotificationsPreferencesAPI()
+  Then the response status code of Notification Preferences API request should be "401"                    # com.maersk.definations.notificationDefinations.verifyStatusCode_NotificationsPreferencesAPI(java.lang.String)
+]]></system-out>
+  </testcase>
+</testsuite>
